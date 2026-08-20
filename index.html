@@ -8,6 +8,12 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<script src="auth.js"></script>
+<script>
+if (!AUTH.isAuthenticated()) {
+  window.location.href = 'login.html';
+}
+</script>
 <style>
 :root{
   --bg:#E9E4D6; --surface:#FDFBF5; --surface-2:#FFFFFF;
@@ -55,10 +61,10 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:40px; margin:0 0 .8
   <p class="lede">Exploração interativa da árvore genealógica da Família Pires extraída do manuscrito histórico. Dúvidas estruturais resolvidas com o autor em agosto de 2026.</p>
 
   <div class="cards">
-    <a href="arvore.html" class="card">
+    <a href="arvore-detalhes.html" class="card">
       <div class="card-title">🌳 Árvore Genealógica Completa</div>
-      <p class="card-desc">Navegue pelos 18 troncos-raiz e 70 troncos familiares. Clique em cada tronco-raiz para expandir os troncos familiares e visualizar as árvores em SVG.</p>
-      <div class="card-meta">18 troncos-raiz • 70 troncos familiares • 2.576 pessoas</div>
+      <p class="card-desc">Explore a árvore interativa com todas as 2.576 pessoas catalogadas. Cada pessoa mostra seu status de confiança dos dados (alta, média ou dúvida). Expanda os troncos para ver a genealogia completa.</p>
+      <div class="card-meta">18 troncos-raiz • 70 troncos familiares • 2.576 pessoas • status de confiança</div>
     </a>
 
     <a href="numeros/" class="card">
