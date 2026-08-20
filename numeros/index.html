@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Números Pires</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#E9E4D6; --surface:#FDFBF5; --surface-2:#FFFFFF;
+  --ink:#2B2620; --ink-2:#6B6255; --ink-muted:#948B7A;
+  --accent:#2F5D50; --accent-bg:#E4ECE8;
+  --doubt:#B5482B; --doubt-text:#FFFBF5;
+  --ok:#3B6D11; --ok-bg:#EAF3DE;
+  --amber:#B8862E;
+  --border:#C9C0AC; --border-soft:#DCD5C4;
+  --font-serif:'EB Garamond',Georgia,'Times New Roman',serif;
+  --font-sans:'IBM Plex Sans',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1C1B17; --surface:#221F1A; --surface-2:#2A2620;
+    --ink:#EDE7D6; --ink-2:#B3AA95; --ink-muted:#837A69;
+    --accent:#5FA793; --accent-bg:#233129;
+    --doubt:#E2775A; --doubt-text:#2B1108;
+    --ok:#8FBF5A; --ok-bg:#232B1C;
+    --amber:#D9AC55;
+    --border:#3A3730; --border-soft:#2E2B25;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1C1B17; --surface:#221F1A; --surface-2:#2A2620;
+  --ink:#EDE7D6; --ink-2:#B3AA95; --ink-muted:#837A69;
+  --accent:#5FA793; --accent-bg:#233129;
+  --doubt:#E2775A; --doubt-text:#2B1108;
+  --ok:#8FBF5A; --ok-bg:#232B1C;
+  --amber:#D9AC55;
+  --border:#3A3730; --border-soft:#2E2B25;
+}
+*{box-sizing:border-box;}
+body{background:var(--bg); color:var(--ink); font-family:var(--font-sans); margin:0;}
+.page{max-width:960px; margin:0 auto; padding:2rem 1.25rem 4rem;}
+.crest{display:flex; justify-content:center; margin-bottom:1rem; min-height:0;}
+.nav{font-size:13px; margin-bottom:1.2rem;}
+.nav a{color:var(--accent); text-decoration:none;}
+.nav a:hover{text-decoration:underline;}
+.eyebrow{font-family:var(--font-mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-muted);}
+h1{font-family:var(--font-serif); font-weight:600; font-size:30px; margin:.35rem 0 .5rem; text-wrap:balance;}
+.lede{font-size:15.5px; color:var(--ink-2); max-width:64ch; line-height:1.7; margin:0 0 1.75rem;}
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:2.2rem;}
+.kpi{background:var(--surface-2); border:.5px solid var(--border); border-radius:12px; padding:1rem 1.1rem;}
+.kpi .n{font-family:var(--font-serif); font-size:30px; font-weight:600; font-variant-numeric:tabular-nums;}
+.kpi .l{font-size:12.5px; color:var(--ink-2); margin-top:2px;}
+.panel{background:var(--surface-2); border:.5px solid var(--border); border-radius:14px; padding:1.4rem 1.5rem; margin-bottom:1.5rem;}
+.panel-title{font-family:var(--font-serif); font-size:18px; font-weight:600; margin:0 0 .4rem;}
+.panel-sub{font-size:13.5px; color:var(--ink-2); line-height:1.6; margin:0 0 1.1rem; max-width:66ch;}
+.bar100{display:flex; width:100%; height:36px; border-radius:8px; overflow:hidden;}
+.bar100 div{display:flex; align-items:center; justify-content:center; font-family:var(--font-mono); font-size:12px; font-weight:500;}
+.b-ok{background:var(--ok-bg); color:var(--ok);}
+.b-amber{background:color-mix(in srgb, var(--amber) 20%, var(--surface-2)); color:var(--amber);}
+.b-doubt{background:color-mix(in srgb, var(--doubt) 18%, var(--surface-2)); color:var(--doubt);}
+.legend2{display:flex; flex-wrap:wrap; gap:18px; font-size:12.5px; color:var(--ink-2); margin-top:14px;}
+.legend2 span{display:inline-flex; align-items:center; gap:6px;}
+.sw{width:10px; height:10px; border-radius:3px; display:inline-block;}
+.chartwrap{position:relative; width:100%; height:560px;}
+.foot{font-size:12px; color:var(--ink-muted); text-align:center; margin-top:2rem; line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="crest" id="crestSlot"></div>
+  <div class="nav"><a href="../">‹ ver a árvore e as 5 dúvidas</a></div>
+  <div class="eyebrow">Família Pires · genealogia</div>
+  <h1>Números da árvore genealógica</h1>
+  <p class="lede">Panorama de tudo que já foi extraído e conferido do manuscrito até agora. Atualizado em 19/08/2026, depois da correção do tronco-raiz de Florência e da conferência com a tabela da revisora.</p>
+
+  <div class="kpis">
+    <div class="kpi"><div class="n">2</div><div class="l">patriarcas</div></div>
+    <div class="kpi"><div class="n">18</div><div class="l">troncos-raiz</div></div>
+    <div class="kpi"><div class="n">70</div><div class="l">troncos familiares</div></div>
+    <div class="kpi"><div class="n">2.576</div><div class="l">pessoas já catalogadas</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Confiança dos dados</div>
+    <p class="panel-sub">De 2.917 pessoas identificadas no texto (já catalogadas + nomes ainda soltos em legendas), qual fração está com o nome confirmado.</p>
+    <div class="bar100">
+      <div class="b-ok" style="width:82.2%">82,2%</div>
+      <div class="b-amber" style="width:6.1%"></div>
+      <div class="b-doubt" style="width:11.7%">11,7%</div>
+    </div>
+    <div class="legend2">
+      <span><span class="sw" style="background:var(--ok);"></span>confiança alta — 2.399 pessoas</span>
+      <span><span class="sw" style="background:var(--amber);"></span>confiança média — 177 pessoas</span>
+      <span><span class="sw" style="background:var(--doubt);"></span>dúvida real (nomes soltos) — 341</span>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Pessoas por tronco-raiz</div>
+    <p class="panel-sub">Os 18 ramos que descem dos 2 patriarcas, do maior para o menor (nome do filho que abre o tronco). Barras em zero são ramos onde o texto não trouxe descendência; "1º/2º/3º casamento" marca quando a mesma pessoa abriu mais de um tronco.</p>
+    <div class="chartwrap"><canvas id="chartRaizes" role="img" aria-label="Gráfico de barras horizontais mostrando o número de pessoas catalogadas em cada um dos 18 troncos-raiz da família Pires, do maior (Florência, 744 pessoas) ao menor (vários com 0)."></canvas></div>
+  </div>
+
+  <p class="foot">Fonte: extração do manuscrito (dados.json) + conferência com a tabela física da revisora, 2026-08-19.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function(){
+  var dados = [
+    ["Florência", 744],
+    ["José", 524],
+    ["Manoela", 325],
+    ["Josina", 255],
+    ["Leônidas", 180],
+    ["Maria (Mariquinha)", 123],
+    ["Vitalina", 77],
+    ["Maria (2º casamento)", 87],
+    ["Maria (3º casamento)", 65],
+    ["Bibiana", 50],
+    ["Maria (1º casamento)", 50],
+    ["João Montano", 26],
+    ["Benedito (1º casamento)", 0],
+    ["Benedito (2º casamento)", 0],
+    ["Melquíades", 0],
+    ["Benedita", 0],
+    ["Páde", 0],
+    ["Romão", 0]
+  ].sort(function(a,b){ return b[1]-a[1]; });
+
+  var isDark = matchMedia("(prefers-color-scheme: dark)").matches &&
+               document.documentElement.getAttribute("data-theme") !== "light";
+  if (document.documentElement.getAttribute("data-theme") === "dark") isDark = true;
+
+  var ink = isDark ? "#EDE7D6" : "#2B2620";
+  var muted = isDark ? "#837A69" : "#948B7A";
+  var grid = isDark ? "#2c2c2a" : "#e1e0d9";
+  var bar = isDark ? "#5FA793" : "#2F5D50";
+
+  new Chart(document.getElementById("chartRaizes"), {
+    type: "bar",
+    data: {
+      labels: dados.map(function(d){ return d[0]; }),
+      datasets: [{
+        label: "Pessoas",
+        data: dados.map(function(d){ return d[1]; }),
+        backgroundColor: bar,
+        borderRadius: 4,
+        maxBarThickness: 22
+      }]
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: grid }, ticks: { color: muted, font: { family: "IBM Plex Mono", size: 11 } } },
+        y: { grid: { display: false }, ticks: { color: ink, font: { family: "EB Garamond", size: 13 } } }
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>
