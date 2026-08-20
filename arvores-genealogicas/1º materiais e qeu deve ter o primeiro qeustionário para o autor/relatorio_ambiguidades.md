@@ -1,0 +1,780 @@
+# Relatório de ambiguidades — Árvores genealógicas (Família Pires)
+
+Arquivo de origem: `primeira_parte_limpo.docx + segunda_parte_limpo.docx`
+
+Total de casos: **104**
+
+## Resumo por tipo
+
+- `item_vs_narrativa`: 25
+- `legenda_apos_foto`: 13
+- `legenda_sem_conector`: 7
+- `nota_nao_pessoa`: 2
+- `pessoa_sem_nome`: 11
+- `possivel_multiplas_pessoas`: 46
+- `pessoa_confianca_media`: 178
+
+## item_vs_narrativa (25)
+
+- **par. 658** (`primeira_parte_limpo.docx` par. local 658) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Clecyws Antônio de Castro Alves/Maria Perpetuo Socorro M. Alves(1º casamento) e Clecyws Antônio de Castro Alves/Darque Ane Ribeiro de Castro Alves(2º casamento)`
+- **par. 690** (`primeira_parte_limpo.docx` par. local 690) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Marcelo, Ricardo, Ana lúcia, Clecyws, Fausta, Conceição, Tiago, Hamilson filho, Tairone, Beatriz, Surama, Márcio, Elza, Leoiza, Patricia, Luciana, Hamilsin, Santana, Divina e Mardônio.`
+- **par. 1320** (`primeira_parte_limpo.docx` par. local 1320) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Maria Milhomem Pereira Antônio Milhomem de Castro Mário Milhomem de Castro Pedro Pires de Castro Abilio Milhomem de Castro Josina Milhomem de Castro Alaô Milhomem de Castro`
+- **par. 1463** (`primeira_parte_limpo.docx` par. local 1463) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Milena, Sandro Jr., Thayane, Brenno, Brunna, Cibely, Augusto, Miguel, Alice, Lorena, Guilherme, Eisa, Paulo, Lucas, Reginaldo, Natalia, Manoela, Maria Eduarda, Rafaela, Gabriel, João, Leticia, Felipe, João, Helena, Henrique, Ana Valentina, Isadora, Antônio, Gabriel, Rafael, Alice, Lucas, Laura, Bernardo, Maria Luiza, Pedro, Manuella, Davi, Eduardo, Mateus, Jose Neto, Alicia, Geovana, Frederico, Bruno, Maria Luiza, Clara, Yasmim, Valentina, Ian, Aurora e José Neto.`
+- **par. 1467** (`primeira_parte_limpo.docx` par. local 1467) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Ricardo Pires de Castro Sobrinho, filho caçula do casal Conceição Pires de Castro e Fausta Pires de Castro, nasceu às 6 horas do dia 16 de abril de 1956, no Hospital São Lucas, em Goiânia (GO).`
+- **par. 1468** (`primeira_parte_limpo.docx` par. local 1468) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Passou sua infância sempre na companhia dos pais, que tinham residência na capital do Estado de Goiás, onde os filhos permaneciam para a formação escolar. Também viviam em Porangatu (GO), onde residiam e mantinham um comércio de secos e molhados, além de serem proprietários da Fazenda Laguinho.`
+- **par. 1469** (`primeira_parte_limpo.docx` par. local 1469) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Sempre em convívio familiar e sem interromper os estudos, iniciou sua formação na Escola Rural da Fazenda Laguinho, no início da década de 1960. Posteriormente, estudou em Porangatu (GO), Goiânia (GO) e Brasília (DF), onde serviu o Exército na Polícia do Exército (PE) em 1975. Em 1979, seguiu para Belém (PA), onde se formou em Engenharia Agronômica na Faculdade de Ciências Agrárias do Pará (FCAP), em 1983.`
+- **par. 1470** (`primeira_parte_limpo.docx` par. local 1470) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Realizou estágio no Japão e trabalhou em cidades como Brasília (DF), Goiânia (GO), Morrinhos (GO), Itaberaí (GO), Miracema do Tocantins (TO) e Palmas (TO). Nesta última, ingressou no serviço público por meio de concurso, em 7 de julho de 1989, como engenheiro agrônomo na Secretaria de Agricultura do recém-criado Estado do Tocantins, onde permaneceu até 2018, aposentando-se na função.`
+- **par. 1471** (`primeira_parte_limpo.docx` par. local 1471) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Casou-se com Ana Lúcia Pinto de Faria em 11 de julho de 1992, da qual teve duas filhas: Isabela Pires de Castro Faria, casada com Fabrício Machado Queiroz, com quem tem um filho, Valentim Queiroz Pires; e Gabriela Pires Santomé de Faria.`
+- **par. 1472** (`primeira_parte_limpo.docx` par. local 1472) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Ficou viúvo em 2013 e reside em Palmas (TO) desde sua fundação. Atualmente, dedica boa parte de seu tempo à pesquisa e à escrita de histórias, como esta da Família Pires.`
+- **par. 1526** (`segunda_parte_limpo.docx` par. local 53) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Celso Pires de Castro Castelo Branco/Ana Cristina Castelo Branco (1º casamento), Rosana Benfica (relacionamento) e Jakeline Silva Castelo Branco (2º casamento).`
+- **par. 2108** (`segunda_parte_limpo.docx` par. local 635) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Barbara Pires Teles, Rhasçanna Queroz, Eduardo Henrique, Rosana Coelho, Rosely Coelho, Roniel Coelho, João Vitor Silva, Maria Vitória Silva, Lara Vitória, Otávio, Nícolas, Nicole, Noemí, Heloisa, Cecilia, Artur, Bernardo, Sofia, Ludimila, Matheus, Guilherme, Gustavo, Lara, Enzo Lucas, Piêtro Lucas, Melinda Vitória, Gabriel, Lícia Raquel, Laura, Miguel, Rayka Rebeca, Maria Alice, Jiovanna, Lorenzzo, Saile, Pedro Lucas, Jõao Alan, Vinícius, Victor Gabriel, Heitor, João Miguel, Ramon, Isabella, Luiz Felipe, Nicoly, Hellena, Henrique, Miguel, Theo, Arthur, Felipe, Ana Cecília, Noah Gabriel, Eloá Gabriele, Ângelo Gabriel, TaynáGabrielly, Gabriel, Kaio, Isabelly, Nathália e João Pedro.`
+- **par. 2242** (`segunda_parte_limpo.docx` par. local 769) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Mateus, Fernanda, Antônio, João Vitor, Maria Eduarda, João Ricardo, Rafael, Ana Luiza, João Lucas, José Rafael, Camilly, Angelina, Daniel e Liz Pires.`
+- **par. 2394** (`segunda_parte_limpo.docx` par. local 921) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Florência de Sousa Pires de Araújo e Aniceto Pereira do Nascimento Araújo eram maranhenses. Ela era natural de Santa Cruz, e ele, de Jenipapo, localidades pertencentes ao município de Carolina (MA). Florência tinha 21 anos e Aniceto, 30, quando, no dia 7 de setembro de 1893, casaram-se na cidade de Carolina.`
+- **par. 2395** (`segunda_parte_limpo.docx` par. local 922) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Ambos descendiam de famílias tradicionais e conceituadas, proprietárias de grandes fazendas na região. Ao receberem seus dotes, decidiram construir o próprio patrimônio. Assim, adquiriram e estruturaram uma propriedade, à qual deram o nome de Fazenda Mundo Novo, localizada entre os rios Farinha e Feio, no município de Carolina, área que hoje pertence ao município de Estreito (MA).`
+- **par. 2396** (`segunda_parte_limpo.docx` par. local 923) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `O casal teve sete filhos, que cresceram e, seguindo o curso natural da vida, deixaram o lar para constituir suas próprias famílias e construir suas histórias. Após o falecimento de Aniceto, Florência permaneceu na Fazenda Mundo Novo, administrando os negócios da família. Com o passar dos anos, porém, e à medida que os filhos foram deixando a propriedade, “Flor Pires”, como era conhecida no Maranhão, passou a enfrentar dificuldades para conduzir a fazenda sozinha.`
+- **par. 2397** (`segunda_parte_limpo.docx` par. local 924) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Foi então que seu cunhado Marinzinho, já estabelecido no então Norte de Goiás, onde era proprietário da Fazenda Bacaba, no município de Itacajá, e da Fazenda Serrinha, na localidade de Panela de Ferro, sugeriu que Florência adquirisse uma propriedade na mesma região, para ficar mais próxima dos filhos Prudêncio, Telecio, Zeca Pires e Alderina, que já estavam ali estabelecidos.`
+- **par. 2398** (`segunda_parte_limpo.docx` par. local 925) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Seguindo esse conselho, Florência adquiriu a Fazenda Fernandina, localizada às margens dos ribeirões Foveiro e Panela de Ferro, no município de Itacajá, então Goiás, hoje Tupiratins, no Tocantins, para onde também transferiu seu rebanho e os demais animais da fazenda. Ali permaneceu por vários anos, deixando a propriedade apenas após o falecimento de sua nora Isaura. Com o propósito de cuidar dos netos, mudou-se para a Fazenda São Bento, de propriedade de seu filho Antônio Pires de Araújo, localizada no município de Miracema do Norte (GO), atual Miracema do Tocantins (TO).`
+- **par. 2399** (`segunda_parte_limpo.docx` par. local 926) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Florência de Sousa Pires de Araújo foi uma mulher guerreira, determinada e de personalidade forte, que jamais se deixou abater pelas adversidades. “Flor Pires”, “Mãe Flor” ou “Tia Flor”, como era carinhosamente conhecida, viveu seus últimos anos na Fazenda São Bento. Após seu falecimento, foi sepultada no cemitério localizado na Fazenda Palmeiras, de propriedade do sr. Nereu Gonzales Vasconcelos, onde também se encontra o túmulo de sua nora Isaura Florência. Naquela época, esse era o cemitério utilizado pelos moradores da região. Florência deixou uma história de coragem, trabalho e dedicação, além de um valioso legado para seus filhos, descendentes e toda a família.`
+- **par. 2400** (`segunda_parte_limpo.docx` par. local 927) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Estão relacionados neste trabalho, devidamente catalogados por gerações, 867 descendentes desse tronco-raiz, Florência de Sousa Pires de Araújo e Aniceto Pereira do Nascimento Araújo, sendo sete filhos, denominados Tronco, 42 netos, 229 bisnetos, 399 trinetos, 190 tetranetos e 8 tataranetos, identificados até junho de 2026, data de fechamento desta edição. Pode haver mais membros desse Tronco-raiz sobre os quais não conseguimos informações.`
+- **par. 2916** (`segunda_parte_limpo.docx` par. local 1443) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Carlos André, Lêda, Lidiane, Lourival, Leandro, Lucas, Maria de Jesus, Maria da Paz, Adailso, Aline, Maria de Fátima, Fábio, Lazara, Antonio Luiz, Natalia, Andeiane, Tiago, Elane, Eliene, Marlene, Edna, Hagna, Hermes, Elson, Leila, Valéria, Antônio, Daniela, José Helielton, Ana Carla, Tânia, Tailene, Marcos, Victor Gabriel, Elisnaria, Tony Regis, Thaynara, Lucimária, Lucas, Luciano, Geovana, Lana, Matheus, Eva Caroline, Patrik e Mikaela.`
+- **par. 2918** (`segunda_parte_limpo.docx` par. local 1445) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Manoel, Lara Jordana, Pietra Suzana, Mariê Sofia, Camila, Moises, Ister, Maitê, Ana Rebeca, Ábiner, Carlos, Eduardo, Vitor Ugo, Cauan, Gesica, Eloisa, Sofia, Adriana, Ana Luis, Vagner, Edisley, Wesley, Lenilson, Maysa, Gabrielle, Mikael, Amaro, Renan, Maycon, Matheus, Tamires, Isaac, Nicholas, Brayan, Gustavo e Guilherme.`
+- **par. 3651** (`segunda_parte_limpo.docx` par. local 2178) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `O casal não teve filhos biológicos, mas adotou uma filha chamada Maria, que residia em Brasília (DF). Não foram obtidas outras informações sobre sua trajetória ou descendentes.`
+- **par. 3652** (`segunda_parte_limpo.docx` par. local 2179) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Dessa forma, foi possível identificar e catalogar, por gerações, até junho de 2026, data de fechamento desta edição, 2.624 descendentes do patriarca Prudêncio de Souza Pires e Fausta Francisca Barros Pires, distribuídos em nove Troncos-raízes e 45 Troncos Familiares.`
+- **par. 3851** (`segunda_parte_limpo.docx` par. local 2378) — Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa.
+  - texto: `Samantha, Elane, Simone, Júlio, Lisania, Rodlfo, Daniel Filho, Gabriel, Mayco Evelir Rarine, Alex, Aline, Mayra, Marcela, Gabriela, Bruno, Tamires, Wander, Junior`
+
+## legenda_apos_foto (13)
+
+- **par. 434** (`primeira_parte_limpo.docx` par. local 434) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Leônidas Ângela Beatriz Lucylene`
+- **par. 639** (`primeira_parte_limpo.docx` par. local 639) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Leoiza Mardônio Beatriz Santana Ricardo`
+- **par. 689** (`primeira_parte_limpo.docx` par. local 689) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Fausta e ConceiçãoPires, com os filhos, genro, noras, netos e bisnetos, em julho de 1995, em Goiânia`
+- **par. 771** (`primeira_parte_limpo.docx` par. local 771) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Ciro Ricardo Elizabeth`
+- **par. 795** (`primeira_parte_limpo.docx` par. local 795) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `América João Pires Anaídes`
+- **par. 1224** (`primeira_parte_limpo.docx` par. local 1224) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Conceição Pedro Galdina Sebastião Donatila Maria`
+- **par. 1491** (`segunda_parte_limpo.docx` par. local 18) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Agenor Rosinha Terezinha Pedro Cíntia`
+- **par. 2034** (`segunda_parte_limpo.docx` par. local 561) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Dionari Tereza Coraci Nilo José Carlos Raimunda Domingas`
+- **par. 2239** (`segunda_parte_limpo.docx` par. local 766) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Genésio e Josefa com filhos, netos, bisnetos e trinetos`
+- **par. 2284** (`segunda_parte_limpo.docx` par. local 811) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `João José Juliana`
+- **par. 2423** (`segunda_parte_limpo.docx` par. local 950) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `José Pereira (Zeca) Maria Barbosa (Maroca) Benildes Pires (Bento) Manoel Pereira (Manim)`
+- **par. 3338** (`segunda_parte_limpo.docx` par. local 1865) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Prudêncio Dejaci Iracema`
+- **par. 3716** (`segunda_parte_limpo.docx` par. local 2243) — Logo apos [FOTO]; tratado como legenda/caption.
+  - texto: `Raimundo Pires Campos`
+
+## legenda_sem_conector (7)
+
+- **par. 417** (`primeira_parte_limpo.docx` par. local 417) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `Anibal José Inês Etelvina Fausta Tomázia Dolores Ricardo`
+- **par. 718** (`primeira_parte_limpo.docx` par. local 718) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `Sirley Nevileude Estelamar Mércia João Bosco Luiz`
+- **par. 1745** (`segunda_parte_limpo.docx` par. local 272) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `Aniceto Merita Anália José Juliana Manoel Niltácio Jaime Maria Luziêta Marisa Benito Valmir`
+- **par. 2323** (`segunda_parte_limpo.docx` par. local 850) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `Izaurina Dalva Maria Valquiria Edson Raul Juarez`
+- **par. 3493** (`segunda_parte_limpo.docx` par. local 2020) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `Geraldo Pedro Ibanês Marilda Idalena Dário`
+- **par. 3499** (`segunda_parte_limpo.docx` par. local 2026) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `Raimundo José Estevão`
+- **par. 4204** (`segunda_parte_limpo.docx` par. local 2731) — Logo apos [FOTO]; lista solta de nomes sem conector 'de/da/do', virgula ou barra -- nao capturada por eh_legenda_apos_foto.
+  - texto: `José Pires Leite Ronaldo Alves Pires Darcy Pires Leite Pedro Pires Leite Osvaldo Pires Leite`
+
+## nota_nao_pessoa (2)
+
+- **par. 751** (`primeira_parte_limpo.docx` par. local 751) — Nota editorial/observacao; nao e pessoa.
+  - texto: `Não tiveram filhos`
+- **par. 1466** (`primeira_parte_limpo.docx` par. local 1466) — Nota editorial/observacao; nao e pessoa.
+  - texto: `Orelha do livro`
+
+## pessoa_sem_nome (11)
+
+- **par. 615** (`primeira_parte_limpo.docx` par. local 615) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(Renata, Marcella, Fernanda, Beatriz, Felipe e Dylane Olívia)`
+- **par. 3625** (`segunda_parte_limpo.docx` par. local 2152) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(sem informações)`
+- **par. 3634** (`segunda_parte_limpo.docx` par. local 2161) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(não tiveram filhos).`
+- **par. 3676** (`segunda_parte_limpo.docx` par. local 2203) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(sem informações de outros filhos).`
+- **par. 3700** (`segunda_parte_limpo.docx` par. local 2227) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(Francisca faleceu no parto e a criança sobreviveu, sem mais informações).`
+- **par. 3792** (`segunda_parte_limpo.docx` par. local 2319) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(sem informações).`
+- **par. 3797** (`segunda_parte_limpo.docx` par. local 2324) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(Não tiveram filhos).`
+- **par. 3802** (`segunda_parte_limpo.docx` par. local 2329) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(Não tiveram filhos).`
+- **par. 4064** (`segunda_parte_limpo.docx` par. local 2591) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(sem informação)`
+- **par. 4161** (`segunda_parte_limpo.docx` par. local 2688) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(não tiveram filhos).`
+- **par. 4202** (`segunda_parte_limpo.docx` par. local 2729) — Parse nao encontrou nome (linha so com parenteses/pontuacao).
+  - texto: `(2º casamento).`
+
+## possivel_multiplas_pessoas (46)
+
+- **par. 411** (`primeira_parte_limpo.docx` par. local 411) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Inês Pires de Castro (Ineizinha), Etelvina Pires de Castro,`
+- **par. 511** (`primeira_parte_limpo.docx` par. local 511) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Maria das Gaças,José Correia,Dolores,Toscano,Oscar,Mactha, Marly,Luiza, Etelvina,Fátima e Leônidas`
+- **par. 544** (`primeira_parte_limpo.docx` par. local 544) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Estefane, AnaClara, Olivia, Pietro, Helena, Isabel, Liz Bozzola, Júlia,`
+- **par. 545** (`primeira_parte_limpo.docx` par. local 545) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Nathan, Benício, Analua, Stela, Claraluz, Arthure Elisa.`
+- **par. 547** (`primeira_parte_limpo.docx` par. local 547) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Alice, Henrique, Georje, Filipe e Álvaro.`
+- **par. 739** (`primeira_parte_limpo.docx` par. local 739) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Rafael, Gustavo, Isadora, Ciro, Letícia,Gabriel,Vinícius, Eduarda, Dhébora, Arthur, Samuel, Sarah,Yasmin, Sofia,MariaEduardaeSamuel.`
+- **par. 782** (`primeira_parte_limpo.docx` par. local 782) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Lucas, Matheus, Laís, Marcio, Luísa, Francisco, Viviane, Valentina, Giovana,Pedro, Luana, Dodinha e Giulia.`
+- **par. 815** (`primeira_parte_limpo.docx` par. local 815) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Manoel, João, Daeci,Raimundo e Euton Delmira`
+- **par. 908** (`primeira_parte_limpo.docx` par. local 908) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Karol, Fernanda, Ricardo, Luma Lorrany, Pedro André, Luis Henrique, Daniela,`
+- **par. 909** (`primeira_parte_limpo.docx` par. local 909) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Eduardo, Junior, Guilherme, Gustavo, Cristian e Eric.`
+- **par. 936** (`primeira_parte_limpo.docx` par. local 936) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Guilherme, Gabriel, Eduarda, Emanoela, Sofia, Aitor, Iker, Ruan, Jan Lucas,`
+- **par. 937** (`primeira_parte_limpo.docx` par. local 937) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Fábio, Henrique, Ruan, Rafael, Samuel e Daniel.`
+- **par. 946** (`primeira_parte_limpo.docx` par. local 946) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Ana Jullya, Clara, Julia, Heitor Henrique, João Pedro e Israel Henrique,`
+- **par. 1202** (`primeira_parte_limpo.docx` par. local 1202) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Rainer, Renata, Rafaelle, Bruno, Luiz, Evellen, Poliana, Rana, Leonardo, Rafael, Mateus, Gerson Neto e Elena.`
+- **par. 1204** (`primeira_parte_limpo.docx` par. local 1204) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Maria Eduarda, Gabriel, Heitor, Rainer Júnior, Valentina e Bernardo.`
+- **par. 1255** (`primeira_parte_limpo.docx` par. local 1255) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Mardônio, Leoiza, Ricardo,Santana, Beatrz`
+- **par. 1411** (`primeira_parte_limpo.docx` par. local 1411) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `João Gabriel, João Miguel, João, Miria, Maria Julha, Aria Isis, Maria Cecília e Acília Camargo.`
+- **par. 1442** (`primeira_parte_limpo.docx` par. local 1442) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Raimundo,Luiz, Antônio, Josina, Luziêta, Pedro, Euzébio, Galdina (Santa), Uilame e José Humberto`
+- **par. 1445** (`primeira_parte_limpo.docx` par. local 1445) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Sandro, Sandra, Claudiney, Claudinay e Kenia,`
+- **par. 1447** (`primeira_parte_limpo.docx` par. local 1447) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Érica, André e Karina,`
+- **par. 1449** (`primeira_parte_limpo.docx` par. local 1449) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Ana Lúcia, Luciana, José Neto, Eusébio Filho e Suellen,`
+- **par. 1451** (`primeira_parte_limpo.docx` par. local 1451) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Renato, Rogério, Victor e Vanessa,`
+- **par. 1453** (`primeira_parte_limpo.docx` par. local 1453) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Antônio Jr, Caroline, Gustavo e Cassiana,`
+- **par. 1455** (`primeira_parte_limpo.docx` par. local 1455) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Simone, Marcelo e Viviane.`
+- **par. 1457** (`primeira_parte_limpo.docx` par. local 1457) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Tatiane, Daniel, Talita e Danilo.`
+- **par. 1459** (`primeira_parte_limpo.docx` par. local 1459) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Luiz Carlos Jr., Marcos, Alex e Thamires.`
+- **par. 1461** (`primeira_parte_limpo.docx` par. local 1461) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Hugo Leonardo, Igor Leandro e Juliana.`
+- **par. 1465** (`primeira_parte_limpo.docx` par. local 1465) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Fernanda, Yan, Laura e Estella.`
+- **par. 1509** (`segunda_parte_limpo.docx` par. local 36) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Caetano, Fernanda, Carolina, Rodrigo, Rafael, Eduardo, Jayelon, Michael, Vitória e Thiago.`
+- **par. 1571** (`segunda_parte_limpo.docx` par. local 98) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Carla, Luiz, Raimundo, Maria, Rosa, João Bosco, Josina, Manoel e Moadir`
+- **par. 2210** (`segunda_parte_limpo.docx` par. local 737) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Catarina, Raimunda, Maria de Jesus, Geovania, Nazaret José Goar Fideles`
+- **par. 2241** (`segunda_parte_limpo.docx` par. local 768) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Roger, Rangel, Ryan, Raylla, Ramilly, Kelvin, Felipe, Kaizer, Gabriel, Bruna, Santiago, Emanuela,`
+- **par. 2244** (`segunda_parte_limpo.docx` par. local 771) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Ageu, Bruno, Bárbara, Lucas Filho e Mell Eduarda.`
+- **par. 2388** (`segunda_parte_limpo.docx` par. local 915) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Thiago, Erica, Thatila, Thalles, Thayller, Bruna Lourrayne, Matheus, Bruno, Douglas e Rhaynara.`
+- **par. 2390** (`segunda_parte_limpo.docx` par. local 917) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Augusto, Cecília, Helena e Aurora.`
+- **par. 2606** (`segunda_parte_limpo.docx` par. local 1133) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Merita Anália Juliana Maria LuziêtaMarisa Valmir,Benito,Manoel,Aniceto,José,Niltácio,Jaime`
+- **par. 3037** (`segunda_parte_limpo.docx` par. local 1564) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Luiz,Tomázia, Leônidas, Estelamar, Nevileu de Sirley Mércia João Bosco Sirley`
+- **par. 3058** (`segunda_parte_limpo.docx` par. local 1585) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Rafael, Gustavo, Isadora, Ciro, Letícia, Gabriel, Vinícius, Eduarda, Dhébora, Arthur, Samuel, Sarah, Yasmin, Sofia, Maria Eduarda e Samuel.`
+- **par. 3087** (`segunda_parte_limpo.docx` par. local 1614) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Rainer, Renata, Rafaelle, Bruno, Luiz, Evellen, Poliana, Rana, Leonardo, Rafael, Mateus, Gerson Neto e Elena.`
+- **par. 3089** (`segunda_parte_limpo.docx` par. local 1616) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Maria Eduarda, Gabriel, Heitor, Rainer Júnior, Valentina e Bernardo.`
+- **par. 3363** (`segunda_parte_limpo.docx` par. local 1890) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Maria da Paz, Alba, Albertina, Maria Lúcia, Aurelice Jovino Aroldo José Manoel`
+- **par. 3541** (`segunda_parte_limpo.docx` par. local 2068) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `João Miguel, Marcelo Junior, Artur, João Henrique, Iara e Liz.`
+- **par. 3835** (`segunda_parte_limpo.docx` par. local 2362) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Ana, Francelina, Luiza, Sebastiana e Helena Pedro`
+- **par. 3850** (`segunda_parte_limpo.docx` par. local 2377) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Larissa, Leonardo, Hector, Hecson, Vanessa, Rodrigo, Murilo, Erica, Adelson Neto Leopoldo, Luis Filho, Joaquim (Juca), Leandro, Sandro, Fernando, Tatiane, Guilherme`
+- **par. 3889** (`segunda_parte_limpo.docx` par. local 2416) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Antônia, Derocy, Ercilio, Nazir, Salomão, Terezinha e Zilda.`
+- **par. 3945** (`segunda_parte_limpo.docx` par. local 2472) — Possivel mais de uma pessoa no mesmo paragrafo (virgula interna).
+  - texto: `Jaime, Ivanilde, José, Aldenora, Aldaires, Cecilio, João, Francisco e Maximino`
+
+## pessoa_confianca_media (178)
+
+Parse aceito, mas com apelido/observação/cônjuge incertos — revisar.
+
+- **par. 411** (`primeira_parte_limpo.docx` par. local 411) (tronco-raiz-01 / primeira_geracao)
+  - nome=`Inês Pires de Castro, Etelvina Pires de Castro` · apelido=`Ineizinha` · cônjuge=`None` · obs=`None`
+  - texto: `Inês Pires de Castro (Ineizinha), Etelvina Pires de Castro,`
+- **par. 428** (`primeira_parte_limpo.docx` par. local 428) (tronco-raiz-01 / Filhos de Anibal e Lucy e seus respectivos cônjuges:)
+  - nome=`Ângela Luiza Gama Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Ângela Luiza Gama Pires de Castro/Solteira,`
+- **par. 430** (`primeira_parte_limpo.docx` par. local 430) (tronco-raiz-01 / Filhos de Anibal e Lucy e seus respectivos cônjuges:)
+  - nome=`Beatriz Gama Pires de Castro Donizete Pinto da Silva` · apelido=`None` · cônjuge=`Divino de Souza` · obs=`1º casamento; 2º casamento`
+  - texto: `Beatriz Gama Pires de Castro Donizete Pinto da Silva (1º casamento)/Divino de Souza (2º casamento),`
+- **par. 432** (`primeira_parte_limpo.docx` par. local 432) (tronco-raiz-01 / Filhos de Anibal e Lucy e seus respectivos cônjuges:)
+  - nome=`Manoel Leônidas Gama Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Manoel Leônidas Gama Pires de Castro/faleceu ainda criança.`
+- **par. 472** (`primeira_parte_limpo.docx` par. local 472) (tronco-raiz-01 / Filhos de José Pires e Raimunda e seus respectivos cônjuges:)
+  - nome=`Mactha de Castro Garção` · apelido=`None` · cônjuge=`Raime Wilmar de Barros Garção` · obs=`Goiano`
+  - texto: `Mactha de Castro Garção/Raime Wilmar de Barros Garção (Goiano)`
+- **par. 474** (`primeira_parte_limpo.docx` par. local 474) (tronco-raiz-01 / Filhos de José Pires e Raimunda e seus respectivos cônjuges:)
+  - nome=`Getulino de Castro Parente` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda jovem`
+  - texto: `Getulino de Castro Parente/faleceu ainda jovem`
+- **par. 503** (`primeira_parte_limpo.docx` par. local 503) (tronco-raiz-01 / Filhos de José Pires e Anita e seus respectivos cônjuges:)
+  - nome=`Maria de Fátima Correia de Castro` · apelido=`Fatinha` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Maria de Fátima Correia de Castro(Fatinha)/Solteira,`
+- **par. 508** (`primeira_parte_limpo.docx` par. local 508) (tronco-raiz-01 / Filhos de José Pires e Anita e seus respectivos cônjuges:)
+  - nome=`Maria Dolores Correia de Castro` · apelido=`None` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Maria Dolores Correia de Castro/Solteira e`
+- **par. 511** (`primeira_parte_limpo.docx` par. local 511) (tronco-raiz-01 / Filhos de José Pires e Anita e seus respectivos cônjuges:)
+  - nome=`Maria das Gaças,José Correia,Dolores,Toscano,Oscar,Mactha, Marly,Luiza, Etelvina,Fátima e Leônidas` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Maria das Gaças,José Correia,Dolores,Toscano,Oscar,Mactha, Marly,Luiza, Etelvina,Fátima e Leônidas`
+- **par. 544** (`primeira_parte_limpo.docx` par. local 544) (tronco-raiz-01 / Bisnetos de José Pires e Anita:)
+  - nome=`Estefane, AnaClara, Olivia, Pietro, Helena, Isabel, Liz Bozzola, Júlia` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Estefane, AnaClara, Olivia, Pietro, Helena, Isabel, Liz Bozzola, Júlia,`
+- **par. 545** (`primeira_parte_limpo.docx` par. local 545) (tronco-raiz-01 / Bisnetos de José Pires e Anita:)
+  - nome=`Nathan, Benício, Analua, Stela, Claraluz, Arthure Elisa` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Nathan, Benício, Analua, Stela, Claraluz, Arthure Elisa.`
+- **par. 547** (`primeira_parte_limpo.docx` par. local 547) (tronco-raiz-01 / Trinetos de José Pires e Anita:)
+  - nome=`Alice, Henrique, Georje, Filipe e Álvaro` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Alice, Henrique, Georje, Filipe e Álvaro.`
+- **par. 561** (`primeira_parte_limpo.docx` par. local 561) (tronco-raiz-01 / Filho de Inês e José de Barros e seus respectivos cônjuges:)
+  - nome=`Lívia de Barros Garção` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Lívia de Barros Garção/solteira.`
+- **par. 563** (`primeira_parte_limpo.docx` par. local 563) (tronco-raiz-01 / Filho de Inês e José de Barros e seus respectivos cônjuges:)
+  - nome=`Raime Wilmar Leila de B. Garção Lívia de Barros Garção` · apelido=`Goiano` · cônjuge=`None` · obs=`None`
+  - texto: `Raime Wilmar (Goiano) Leila de B. Garção Lívia de Barros Garção`
+- **par. 631** (`primeira_parte_limpo.docx` par. local 631) (tronco-raiz-01 / Filhos de Fausta e Conceição e seus respetivos cônjuges:)
+  - nome=`Leoiza Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Leoiza Pires de Castro/Solteira,`
+- **par. 632** (`primeira_parte_limpo.docx` par. local 632) (tronco-raiz-01 / Filhos de Fausta e Conceição e seus respetivos cônjuges:)
+  - nome=`Mardônio Pires de Castro` · apelido=`None` · cônjuge=`Divins Elza Dutra/Celia Teixeira de Castro` · obs=`1ºcasamento; 2ºcasamento`
+  - texto: `Mardônio Pires de Castro/Divins Elza Dutra(1ºcasamento)/Celia Teixeira de Castro (2ºcasamento),`
+- **par. 633** (`primeira_parte_limpo.docx` par. local 633) (tronco-raiz-01 / Filhos de Fausta e Conceição e seus respetivos cônjuges:)
+  - nome=`Mariza Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Mariza Pires de Castro/faleceu ainda criança,`
+- **par. 636** (`primeira_parte_limpo.docx` par. local 636) (tronco-raiz-01 / Filhos de Fausta e Conceição e seus respetivos cônjuges:)
+  - nome=`José Ricardo Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `José Ricardo Pires de Castro/faleceu ainda criança e`
+- **par. 709** (`primeira_parte_limpo.docx` par. local 709) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Shirley Florence de Araújo Pires` · apelido=`Nazinha` · cônjuge=`None` · obs=`solteira`
+  - texto: `Shirley Florence de Araújo Pires (Nazinha) (solteira),`
+- **par. 710** (`primeira_parte_limpo.docx` par. local 710) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Nevileu de Marisa de Araújo Pires` · apelido=`Dazinha` · cônjuge=`None` · obs=`solteira`
+  - texto: `Nevileu de Marisa de Araújo Pires (Dazinha) (solteira) e`
+- **par. 711** (`primeira_parte_limpo.docx` par. local 711) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Leônidas de Araújo Pires` · apelido=`Leôní` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Leônidas de Araújo Pires (Leôní) (solteiro),`
+- **par. 712** (`primeira_parte_limpo.docx` par. local 712) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Stela Maris de Araújo Pires` · apelido=`Fiinha` · cônjuge=`None` · obs=`solteira`
+  - texto: `Stela Maris de Araújo Pires (Fiinha) (solteira),`
+- **par. 714** (`primeira_parte_limpo.docx` par. local 714) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Mércia Hidelma de Araújo Lopes` · apelido=`None` · cônjuge=`José Luiz Lopes da Silva` · obs=`Zezinho`
+  - texto: `Mércia Hidelma de Araújo Lopes/José Luiz Lopes da Silva (Zezinho),`
+- **par. 715** (`primeira_parte_limpo.docx` par. local 715) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Luiz Carlos de Araújo Pires` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Luiz Carlos de Araújo Pires (solteiro) e`
+- **par. 716** (`primeira_parte_limpo.docx` par. local 716) (tronco-raiz-01 / Filhos de Tomázia e Manoel Divino e seus respetivos cônjuges:)
+  - nome=`Francisco Soares da Silva` · apelido=`adotivo` · cônjuge=`Maria Domingas da Silva,/Conceição` · obs=`1º casamento; 2º casamento`
+  - texto: `Francisco Soares da Silva (adotivo) (1º casamento)/Maria Domingas da Silva, (2º casamento)/Conceição.`
+- **par. 739** (`primeira_parte_limpo.docx` par. local 739) (tronco-raiz-01 / Bisnetos de Tomázia e Manoel Divino:)
+  - nome=`Rafael, Gustavo, Isadora, Ciro, Letícia,Gabriel,Vinícius, Eduarda, Dhébora, Arthur, Samuel, Sarah,Yasmin, Sofia,MariaEduardaeSamuel` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Rafael, Gustavo, Isadora, Ciro, Letícia,Gabriel,Vinícius, Eduarda, Dhébora, Arthur, Samuel, Sarah,Yasmin, Sofia,MariaEduardaeSamuel.`
+- **par. 778** (`primeira_parte_limpo.docx` par. local 778) (tronco-raiz-01 / Filhos de Elizabeth e Ricardo:)
+  - nome=`Álvaro Affonso Miranda Neto` · apelido=`Doda` · cônjuge=`None` · obs=`Campeão olímpico de hipismo, 1999`
+  - texto: `Álvaro Affonso Miranda Neto (Doda) (Campeão olímpico de hipismo, 1999)`
+- **par. 782** (`primeira_parte_limpo.docx` par. local 782) (tronco-raiz-01 / Bisnetos de Ricardo e Olga:)
+  - nome=`Lucas, Matheus, Laís, Marcio, Luísa, Francisco, Viviane, Valentina, Giovana,Pedro, Luana, Dodinha e Giulia` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Lucas, Matheus, Laís, Marcio, Luísa, Francisco, Viviane, Valentina, Giovana,Pedro, Luana, Dodinha e Giulia.`
+- **par. 815** (`primeira_parte_limpo.docx` par. local 815) (tronco-raiz-02 / Filhos de América e Olimpio e seus respetivos cônjuges:)
+  - nome=`Manoel, João, Daeci,Raimundo e Euton Delmira` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Manoel, João, Daeci,Raimundo e Euton Delmira`
+- **par. 819** (`primeira_parte_limpo.docx` par. local 819) (tronco-raiz-02 / Filhos de Raimundo e Bernardina:)
+  - nome=`Neuza Oliveira da Rocha` · apelido=`None` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Neuza Oliveira da Rocha/Solteira,`
+- **par. 849** (`primeira_parte_limpo.docx` par. local 849) (tronco-raiz-02 / Filhos de Delmira:)
+  - nome=`Mércia Oliveira Castro` · apelido=`None` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Mércia Oliveira Castro/Solteira,`
+- **par. 908** (`primeira_parte_limpo.docx` par. local 908) (tronco-raiz-02 / Netos de Delmira:)
+  - nome=`Karol, Fernanda, Ricardo, Luma Lorrany, Pedro André, Luis Henrique, Daniela` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Karol, Fernanda, Ricardo, Luma Lorrany, Pedro André, Luis Henrique, Daniela,`
+- **par. 909** (`primeira_parte_limpo.docx` par. local 909) (tronco-raiz-02 / Netos de Delmira:)
+  - nome=`Eduardo, Junior, Guilherme, Gustavo, Cristian e Eric` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Eduardo, Junior, Guilherme, Gustavo, Cristian e Eric.`
+- **par. 936** (`primeira_parte_limpo.docx` par. local 936) (tronco-raiz-02 / Bisnetos de João e Claudenes:)
+  - nome=`Guilherme, Gabriel, Eduarda, Emanoela, Sofia, Aitor, Iker, Ruan, Jan Lucas` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Guilherme, Gabriel, Eduarda, Emanoela, Sofia, Aitor, Iker, Ruan, Jan Lucas,`
+- **par. 937** (`primeira_parte_limpo.docx` par. local 937) (tronco-raiz-02 / Bisnetos de João e Claudenes:)
+  - nome=`Fábio, Henrique, Ruan, Rafael, Samuel e Daniel` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Fábio, Henrique, Ruan, Rafael, Samuel e Daniel.`
+- **par. 946** (`primeira_parte_limpo.docx` par. local 946) (tronco-raiz-02 / Bisnetos da Delmira:)
+  - nome=`Ana Jullya, Clara, Julia, Heitor Henrique, João Pedro e Israel Henrique` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Ana Jullya, Clara, Julia, Heitor Henrique, João Pedro e Israel Henrique,`
+- **par. 963** (`primeira_parte_limpo.docx` par. local 963) (tronco-raiz-02 / Filhos de João e Leonilia e seus respetivos cônjuges:)
+  - nome=`Alcebíades Costa Pires` · apelido=`None` · cônjuge=`Maria Batista da Silva` · obs=`Arica`
+  - texto: `Alcebíades Costa Pires/Maria Batista da Silva (Arica),`
+- **par. 967** (`primeira_parte_limpo.docx` par. local 967) (tronco-raiz-02 / Filhos de João e Leonilia e seus respetivos cônjuges:)
+  - nome=`Raimundo Nonato Pires da Costa` · apelido=`Nonato` · cônjuge=`Ilda/Adriana` · obs=`1º casamento; 2º casamento`
+  - texto: `Raimundo Nonato Pires da Costa (Nonato)/Ilda (1º casamento)/Adriana (2º casamento),`
+- **par. 968** (`primeira_parte_limpo.docx` par. local 968) (tronco-raiz-02 / Filhos de João e Leonilia e seus respetivos cônjuges:)
+  - nome=`Maria das Graças Pires de Araújo (Mariquita` · apelido=`None` · cônjuge=`Graça)/Joaquim Araújo` · obs=`None`
+  - texto: `Maria das Graças Pires de Araújo (Mariquita/Graça)/Joaquim Araújo e`
+- **par. 969** (`primeira_parte_limpo.docx` par. local 969) (tronco-raiz-02 / Filhos de João e Leonilia e seus respetivos cônjuges:)
+  - nome=`Rosilene Pires de Castro` · apelido=`Rosinha` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Rosilene Pires de Castro (Rosinha) (faleceu ainda criança).`
+- **par. 971** (`primeira_parte_limpo.docx` par. local 971) (tronco-raiz-02 / Filhos de João e Leonilia e seus respetivos cônjuges:)
+  - nome=`Raimunda Manoel Pires Alcebiades Costa Petronilia Terezinha Erasmo Pires Raimundo Nonato Maria das Graças` · apelido=`Mundica` · cônjuge=`None` · obs=`Petu`
+  - texto: `Raimunda(Mundica) Manoel Pires Alcebiades Costa Petronilia (Petu) Terezinha Erasmo Pires Raimundo Nonato Maria das Graças`
+- **par. 1194** (`primeira_parte_limpo.docx` par. local 1194) (tronco-raiz-02 / Filhos de Gerson e Maria:)
+  - nome=`Luiz Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`filho só do Gerson`
+  - texto: `Luiz Pires de Castro (filho só do Gerson)`
+- **par. 1202** (`primeira_parte_limpo.docx` par. local 1202) (tronco-raiz-02 / Bisnetos de Anaides e Prudêncio:)
+  - nome=`Rainer, Renata, Rafaelle, Bruno, Luiz, Evellen, Poliana, Rana, Leonardo, Rafael, Mateus, Gerson Neto e Elena` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Rainer, Renata, Rafaelle, Bruno, Luiz, Evellen, Poliana, Rana, Leonardo, Rafael, Mateus, Gerson Neto e Elena.`
+- **par. 1204** (`primeira_parte_limpo.docx` par. local 1204) (tronco-raiz-02 / Trinetos de Anaídes e Prudêncio:)
+  - nome=`Maria Eduarda, Gabriel, Heitor, Rainer Júnior, Valentina e Bernardo` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Maria Eduarda, Gabriel, Heitor, Rainer Júnior, Valentina e Bernardo.`
+- **par. 1222** (`primeira_parte_limpo.docx` par. local 1222) (tronco-raiz-03 / primeira_geracao)
+  - nome=`José Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`era gêmeo com Maria e faleceu ainda bebê`
+  - texto: `José Pires de Castro (era gêmeo com Maria e faleceu ainda bebê)`
+- **par. 1246** (`primeira_parte_limpo.docx` par. local 1246) (tronco-raiz-03 / Filhos de Conceição e Fausta e seus respetivos cônjuges:)
+  - nome=`Leoiza Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`Solteira`
+  - texto: `Leoiza Pires de Castro/Solteira,`
+- **par. 1247** (`primeira_parte_limpo.docx` par. local 1247) (tronco-raiz-03 / Filhos de Conceição e Fausta e seus respetivos cônjuges:)
+  - nome=`Mardônio Pires de Castro` · apelido=`None` · cônjuge=`Divina Elza Dutra` · obs=`1ºcasamento`
+  - texto: `Mardônio Pires de Castro/Divina Elza Dutra (1ºcasamento),`
+- **par. 1248** (`primeira_parte_limpo.docx` par. local 1248) (tronco-raiz-03 / Filhos de Conceição e Fausta e seus respetivos cônjuges:)
+  - nome=`Mardônio Pires de Castro` · apelido=`None` · cônjuge=`Celia Teixeira de Castro` · obs=`2ºcasamento`
+  - texto: `Mardônio Pires de Castro/Celia Teixeira de Castro (2ºcasamento),`
+- **par. 1249** (`primeira_parte_limpo.docx` par. local 1249) (tronco-raiz-03 / Filhos de Conceição e Fausta e seus respetivos cônjuges:)
+  - nome=`Mariza Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Mariza Pires de Castro/ faleceu ainda criança,`
+- **par. 1252** (`primeira_parte_limpo.docx` par. local 1252) (tronco-raiz-03 / Filhos de Conceição e Fausta e seus respetivos cônjuges:)
+  - nome=`José Ricardo Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `José Ricardo Pires de Castro/faleceu ainda criança, e`
+- **par. 1255** (`primeira_parte_limpo.docx` par. local 1255) (tronco-raiz-03 / Filhos de Conceição e Fausta e seus respetivos cônjuges:)
+  - nome=`Mardônio, Leoiza, Ricardo,Santana, Beatrz` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Mardônio, Leoiza, Ricardo,Santana, Beatrz`
+- **par. 1273** (`primeira_parte_limpo.docx` par. local 1273) (tronco-raiz-03 / Filhos de Beatriz e Antônio:)
+  - nome=`Clecyws Antônio de Castro Alves` · apelido=`None` · cônjuge=`Maria Perpetuo Socorro M. Alves` · obs=`1º casamento`
+  - texto: `Clecyws Antônio de Castro Alves/Maria Perpetuo Socorro M. Alves (1º casamento)`
+- **par. 1274** (`primeira_parte_limpo.docx` par. local 1274) (tronco-raiz-03 / Filhos de Beatriz e Antônio:)
+  - nome=`Clecyws Antônio de Castro Alves` · apelido=`None` · cônjuge=`Darque Ane Ribeiro de Castro Alves` · obs=`2º casamento`
+  - texto: `Clecyws Antônio de Castro Alves/Darque Ane Ribeiro de Castro Alves (2º casamento)`
+- **par. 1314** (`primeira_parte_limpo.docx` par. local 1314) (tronco-raiz-03 / Filhos de Pedro e Tereza e seus respetivos cônjuges:)
+  - nome=`Mário Milhomem de Castro` · apelido=`None` · cônjuge=`Rosa de Lima Medeiros Milhomem` · obs=`Rosinha`
+  - texto: `Mário Milhomem de Castro/Rosa de Lima Medeiros Milhomem (Rosinha),`
+- **par. 1411** (`primeira_parte_limpo.docx` par. local 1411) (tronco-raiz-03 / Trinetos de Pedro e Tereza:)
+  - nome=`João Gabriel, João Miguel, João, Miria, Maria Julha, Aria Isis, Maria Cecília e Acília Camargo` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `João Gabriel, João Miguel, João, Miria, Maria Julha, Aria Isis, Maria Cecília e Acília Camargo.`
+- **par. 1430** (`primeira_parte_limpo.docx` par. local 1430) (tronco-raiz-03 / Filhos de Galdina e José e seus respetivos cônjuges:)
+  - nome=`Vitorino Pires de Araújo` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Vitorino Pires de Araújo (faleceu ainda criança),`
+- **par. 1431** (`primeira_parte_limpo.docx` par. local 1431) (tronco-raiz-03 / Filhos de Galdina e José e seus respetivos cônjuges:)
+  - nome=`Manoel Pires de Araújo` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Manoel Pires de Araújo (faleceu ainda criança),`
+- **par. 1442** (`primeira_parte_limpo.docx` par. local 1442) (tronco-raiz-03 / Filhos de Galdina e José e seus respetivos cônjuges:)
+  - nome=`Raimundo,Luiz, Antônio, Josina, Luziêta, Pedro, Euzébio, Galdina, Uilame e José Humberto` · apelido=`Santa` · cônjuge=`None` · obs=`None`
+  - texto: `Raimundo,Luiz, Antônio, Josina, Luziêta, Pedro, Euzébio, Galdina (Santa), Uilame e José Humberto`
+- **par. 1445** (`primeira_parte_limpo.docx` par. local 1445) (tronco-raiz-03 / Filhos de Luzieta e José:)
+  - nome=`Sandro, Sandra, Claudiney, Claudinay e Kenia` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Sandro, Sandra, Claudiney, Claudinay e Kenia,`
+- **par. 1447** (`primeira_parte_limpo.docx` par. local 1447) (tronco-raiz-03 / Flhos de Uilame e Terezinha:)
+  - nome=`Érica, André e Karina` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Érica, André e Karina,`
+- **par. 1449** (`primeira_parte_limpo.docx` par. local 1449) (tronco-raiz-03 / Filhos de Euzebio e Sônia:)
+  - nome=`Ana Lúcia, Luciana, José Neto, Eusébio Filho e Suellen` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Ana Lúcia, Luciana, José Neto, Eusébio Filho e Suellen,`
+- **par. 1451** (`primeira_parte_limpo.docx` par. local 1451) (tronco-raiz-03 / Filhos de Raimundo e Vânia:)
+  - nome=`Renato, Rogério, Victor e Vanessa` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Renato, Rogério, Victor e Vanessa,`
+- **par. 1453** (`primeira_parte_limpo.docx` par. local 1453) (tronco-raiz-03 / Filhos de Antônio e Ana:)
+  - nome=`Antônio Jr, Caroline, Gustavo e Cassiana` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Antônio Jr, Caroline, Gustavo e Cassiana,`
+- **par. 1455** (`primeira_parte_limpo.docx` par. local 1455) (tronco-raiz-03 / Filhos de Pedro e Sônia:)
+  - nome=`Simone, Marcelo e Viviane` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Simone, Marcelo e Viviane.`
+- **par. 1457** (`primeira_parte_limpo.docx` par. local 1457) (tronco-raiz-03 / Filhos de José e Tânia:)
+  - nome=`Tatiane, Daniel, Talita e Danilo` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Tatiane, Daniel, Talita e Danilo.`
+- **par. 1459** (`primeira_parte_limpo.docx` par. local 1459) (tronco-raiz-03 / Filhos de Luiz e Lúcia:)
+  - nome=`Luiz Carlos Jr., Marcos, Alex e Thamires` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Luiz Carlos Jr., Marcos, Alex e Thamires.`
+- **par. 1461** (`primeira_parte_limpo.docx` par. local 1461) (tronco-raiz-03 / Filhos de Josina e Nem:)
+  - nome=`Hugo Leonardo, Igor Leandro e Juliana` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Hugo Leonardo, Igor Leandro e Juliana.`
+- **par. 1465** (`primeira_parte_limpo.docx` par. local 1465) (tronco-raiz-03 / Trinetos de Galdina e José:)
+  - nome=`Fernanda, Yan, Laura e Estella` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Fernanda, Yan, Laura e Estella.`
+- **par. 1486** (`segunda_parte_limpo.docx` par. local 13) (tronco-raiz-03 / Filhos de Sebastião e Justina e seus respectivos cônjuges:)
+  - nome=`Rosinha Pires Diegues` · apelido=`None` · cônjuge=`José Francisco Diegues` · obs=`Pepe`
+  - texto: `Rosinha Pires Diegues/José Francisco Diegues (Pepe),`
+- **par. 1509** (`segunda_parte_limpo.docx` par. local 36) (tronco-raiz-03 / Bisnetos de Sebastião e Justina:)
+  - nome=`Caetano, Fernanda, Carolina, Rodrigo, Rafael, Eduardo, Jayelon, Michael, Vitória e Thiago` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Caetano, Fernanda, Carolina, Rodrigo, Rafael, Eduardo, Jayelon, Michael, Vitória e Thiago.`
+- **par. 1571** (`segunda_parte_limpo.docx` par. local 98) (tronco-raiz-03 / Filhos de Maria e Moadir e seus respectivos cônjuges:)
+  - nome=`Carla, Luiz, Raimundo, Maria, Rosa, João Bosco, Josina, Manoel e Moadir` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Carla, Luiz, Raimundo, Maria, Rosa, João Bosco, Josina, Manoel e Moadir`
+- **par. 1688** (`segunda_parte_limpo.docx` par. local 215) (tronco-raiz-04 / Filhos de João e Neide e seus respectivos cônjuges:)
+  - nome=`Maria das Graças Maria do Socorro MariaTrindade Maria das Mercês João filho José Neto Maria Eneide Ary de Sousa` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Maria das Graças Maria do Socorro MariaTrindade Maria das Mercês João filho José Neto Maria Eneide Ary de Sousa`
+- **par. 1719** (`segunda_parte_limpo.docx` par. local 246) (tronco-raiz-04 / Netos de José Neto:)
+  - nome=`Netos e Bisnetos de João da Silva Pires e Neide de Sousa Pires` · apelido=`Xileu` · cônjuge=`None` · obs=`None`
+  - texto: `Netos e Bisnetos de João da Silva Pires (Xileu) e Neide de Sousa Pires`
+- **par. 1756** (`segunda_parte_limpo.docx` par. local 283) (tronco-raiz-04 / Filhos de Aniceto e Tereza:)
+  - nome=`José Maria Pires` · apelido=`None` · cônjuge=`None` · obs=`filho só do Aniceto`
+  - texto: `José Maria Pires (filho só do Aniceto).`
+- **par. 2025** (`segunda_parte_limpo.docx` par. local 552) (tronco-raiz-04 / Filhos de Gerim e Raimunda e seus respectivos cônjuges:)
+  - nome=`Coraci Alves Pires` · apelido=`None` · cônjuge=`Admilto de Souza Soares` · obs=`Miton`
+  - texto: `Coraci Alves Pires/Admilto de Souza Soares (Miton),`
+- **par. 2027** (`segunda_parte_limpo.docx` par. local 554) (tronco-raiz-04 / Filhos de Gerim e Raimunda e seus respectivos cônjuges:)
+  - nome=`Francisco Alves Pires` · apelido=`None` · cônjuge=`Socorro` · obs=`1º casamento`
+  - texto: `Francisco Alves Pires/Socorro (1º casamento),`
+- **par. 2028** (`segunda_parte_limpo.docx` par. local 555) (tronco-raiz-04 / Filhos de Gerim e Raimunda e seus respectivos cônjuges:)
+  - nome=`Francisco Alves Pires` · apelido=`None` · cônjuge=`Alzirene` · obs=`2º casamento`
+  - texto: `Francisco Alves Pires/Alzirene (2º casamento),`
+- **par. 2060** (`segunda_parte_limpo.docx` par. local 587) (tronco-raiz-04 / Filhos de Maria e Benedito:)
+  - nome=`Iris Pires Coelho` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Iris Pires Coelho (solteiro),`
+- **par. 2061** (`segunda_parte_limpo.docx` par. local 588) (tronco-raiz-04 / Filhos de Maria e Benedito:)
+  - nome=`Manoel Pires Coelho` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Manoel Pires Coelho (solteiro),`
+- **par. 2074** (`segunda_parte_limpo.docx` par. local 601) (tronco-raiz-04 / Filhos de Coraci e Admilton:)
+  - nome=`Adriano Pires Soare` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Adriano Pires Soare (solteiro) e`
+- **par. 2075** (`segunda_parte_limpo.docx` par. local 602) (tronco-raiz-04 / Filhos de Coraci e Admilton:)
+  - nome=`Raimunda Pires Soares` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda jovem`
+  - texto: `Raimunda Pires Soares (faleceu ainda jovem).`
+- **par. 2077** (`segunda_parte_limpo.docx` par. local 604) (tronco-raiz-04 / Flhos de Nilo e Maria:)
+  - nome=`Danilo Pereira Pires` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Danilo Pereira Pires (solteiro),`
+- **par. 2135** (`segunda_parte_limpo.docx` par. local 662) (tronco-raiz-04 / Filhos de Hermes e Georgina e seus respectivos cônjuges:)
+  - nome=`Juliana da Costa Pires` · apelido=`None` · cônjuge=`None` · obs=`não deixou filhos`
+  - texto: `Juliana da Costa Pires (não deixou filhos),`
+- **par. 2136** (`segunda_parte_limpo.docx` par. local 663) (tronco-raiz-04 / Filhos de Hermes e Georgina e seus respectivos cônjuges:)
+  - nome=`Jackson da Costa Pires “Velho Jack”` · apelido=`None` · cônjuge=`Terezinha` · obs=`1º casamento`
+  - texto: `Jackson da Costa Pires “Velho Jack” (1º casamento)/Terezinha,`
+- **par. 2137** (`segunda_parte_limpo.docx` par. local 664) (tronco-raiz-04 / Filhos de Hermes e Georgina e seus respectivos cônjuges:)
+  - nome=`Jackson da Costa Pires` · apelido=`None` · cônjuge=`Rosana Ferreira Pires` · obs=`2º casamento`
+  - texto: `Jackson da Costa Pires (2º casamento)/Rosana Ferreira Pires,`
+- **par. 2149** (`segunda_parte_limpo.docx` par. local 676) (tronco-raiz-04 / Filhos de Hermes e Georgina e seus respectivos cônjuges:)
+  - nome=`Jackson Isac Salomão José Maria de Jesus Solange Izaurina Benjamin` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Jackson Isac Salomão José Maria de Jesus Solange Izaurina Benjamin`
+- **par. 2205** (`segunda_parte_limpo.docx` par. local 732) (tronco-raiz-04 / Filhos de Genésio e Josefa e seus respectivos cônjuges:)
+  - nome=`Maria de Nazaret Souza Pires` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Maria de Nazaret Souza Pires/solteira,`
+- **par. 2208** (`segunda_parte_limpo.docx` par. local 735) (tronco-raiz-04 / Filhos de Genésio e Josefa e seus respectivos cônjuges:)
+  - nome=`Katia Mírian Pires de Sousa` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Katia Mírian Pires de Sousa/solteira.`
+- **par. 2210** (`segunda_parte_limpo.docx` par. local 737) (tronco-raiz-04 / Filhos de Genésio e Josefa e seus respectivos cônjuges:)
+  - nome=`Catarina, Raimunda, Maria de Jesus, Geovania, Nazaret José Goar Fideles` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Catarina, Raimunda, Maria de Jesus, Geovania, Nazaret José Goar Fideles`
+- **par. 2241** (`segunda_parte_limpo.docx` par. local 768) (tronco-raiz-04 / Bisnetos de Genésio e Josefa:)
+  - nome=`Roger, Rangel, Ryan, Raylla, Ramilly, Kelvin, Felipe, Kaizer, Gabriel, Bruna, Santiago, Emanuela` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Roger, Rangel, Ryan, Raylla, Ramilly, Kelvin, Felipe, Kaizer, Gabriel, Bruna, Santiago, Emanuela,`
+- **par. 2244** (`segunda_parte_limpo.docx` par. local 771) (tronco-raiz-04 / Trinetos de Genésio e Josefa:)
+  - nome=`Ageu, Bruno, Bárbara, Lucas Filho e Mell Eduarda` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Ageu, Bruno, Bárbara, Lucas Filho e Mell Eduarda.`
+- **par. 2254** (`segunda_parte_limpo.docx` par. local 781) (tronco-raiz-04 / Filhos de Vercília e Antônio e seus respectivos cônjuges:)
+  - nome=`Antônio Pires de Sousa` · apelido=`None` · cônjuge=`Maria de Jesus` · obs=`moram no estado do Mato Grosso`
+  - texto: `Antônio Pires de Sousa/Maria de Jesus (moram no estado do Mato Grosso).`
+- **par. 2279** (`segunda_parte_limpo.docx` par. local 806) (tronco-raiz-04 / Filhos de Vercília e Máximus e seus respectivos cônjuges:)
+  - nome=`Terezinha Pires dos Reis` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Terezinha Pires dos Reis (faleceu ainda criança).`
+- **par. 2280** (`segunda_parte_limpo.docx` par. local 807) (tronco-raiz-04 / Filhos de Vercília e Máximus e seus respectivos cônjuges:)
+  - nome=`João Pires dos Reis` · apelido=`None` · cônjuge=`Maria de Lurdes Ferreira Pires` · obs=`Lurdinha`
+  - texto: `João Pires dos Reis/Maria de Lurdes Ferreira Pires (Lurdinha),`
+- **par. 2314** (`segunda_parte_limpo.docx` par. local 841) (tronco-raiz-04 / Filhos de Mercides e Ladislau e seus respectivos cônjuges:)
+  - nome=`Juarez Pires de Almeida` · apelido=`None` · cônjuge=`Raimundinha` · obs=`Prêtinha`
+  - texto: `Juarez Pires de Almeida/Raimundinha (Prêtinha),`
+- **par. 2315** (`segunda_parte_limpo.docx` par. local 842) (tronco-raiz-04 / Filhos de Mercides e Ladislau e seus respectivos cônjuges:)
+  - nome=`Edson Pires de Almeida` · apelido=`None` · cônjuge=`Francisca Lopes` · obs=`1º casamento`
+  - texto: `Edson Pires de Almeida (1º casamento)/Francisca Lopes,`
+- **par. 2316** (`segunda_parte_limpo.docx` par. local 843) (tronco-raiz-04 / Filhos de Mercides e Ladislau e seus respectivos cônjuges:)
+  - nome=`Edson Pires de Almeida` · apelido=`None` · cônjuge=`Maria` · obs=`2º casamento`
+  - texto: `Edson Pires de Almeida (2º casamento)/Maria,`
+- **par. 2320** (`segunda_parte_limpo.docx` par. local 847) (tronco-raiz-04 / Filhos de Mercides e Ladislau e seus respectivos cônjuges:)
+  - nome=`Izaurina Pires de Almeida` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Izaurina Pires de Almeida (solteira) e`
+- **par. 2321** (`segunda_parte_limpo.docx` par. local 848) (tronco-raiz-04 / Filhos de Mercides e Ladislau e seus respectivos cônjuges:)
+  - nome=`Valquiria Pires de Almeida` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Valquiria Pires de Almeida (solteira).`
+- **par. 2388** (`segunda_parte_limpo.docx` par. local 915) (tronco-raiz-04 / Bisnetos de Mercides e Ladislau:)
+  - nome=`Thiago, Erica, Thatila, Thalles, Thayller, Bruna Lourrayne, Matheus, Bruno, Douglas e Rhaynara` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Thiago, Erica, Thatila, Thalles, Thayller, Bruna Lourrayne, Matheus, Bruno, Douglas e Rhaynara.`
+- **par. 2390** (`segunda_parte_limpo.docx` par. local 917) (tronco-raiz-04 / Trinetos de Mercides e Ladislau:)
+  - nome=`Augusto, Cecília, Helena e Aurora` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Augusto, Cecília, Helena e Aurora.`
+- **par. 2392** (`segunda_parte_limpo.docx` par. local 919) (tronco-raiz-04 / Trinetos de Mercides e Ladislau:)
+  - nome=`Florência de Sousa Pires de Araújo` · apelido=`Tia Flor` · cônjuge=`None` · obs=`filha de Prudêncio e Fausta`
+  - texto: `Florência de Sousa Pires de Araújo (Tia Flor) (filha de Prudêncio e Fausta).`
+- **par. 2393** (`segunda_parte_limpo.docx` par. local 920) (tronco-raiz-04 / Trinetos de Mercides e Ladislau:)
+  - nome=`Esposo: Aniceto Pereira do Nascimento Araújo e Justina Cunha Araújo)` · apelido=`None` · cônjuge=`None` · obs=`filho de Manoel Pereira do Nascimento (Manoelzinho`
+  - texto: `Esposo: Aniceto Pereira do Nascimento Araújo (filho de Manoel Pereira do Nascimento (Manoelzinho) e Justina Cunha Araújo).`
+- **par. 2606** (`segunda_parte_limpo.docx` par. local 1133) (tronco-raiz-04 / Filhos de Antônio e Isaura e seus respectivos cônjuges:)
+  - nome=`Merita Anália Juliana Maria LuziêtaMarisa Valmir,Benito,Manoel,Aniceto,José,Niltácio,Jaime` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Merita Anália Juliana Maria LuziêtaMarisa Valmir,Benito,Manoel,Aniceto,José,Niltácio,Jaime`
+- **par. 2617** (`segunda_parte_limpo.docx` par. local 1144) (tronco-raiz-04 / Filhos de Aniceto e Tereza:)
+  - nome=`José Maria Pires` · apelido=`None` · cônjuge=`None` · obs=`filho só do Aniceto`
+  - texto: `José Maria Pires (filho só do Aniceto).`
+- **par. 2885** (`segunda_parte_limpo.docx` par. local 1412) (tronco-raiz-04 / Filhos de Ana Rita e Raimundo e seus respectivos cônjuges:)
+  - nome=`José Pires da Cunha` · apelido=`None` · cônjuge=`None` · obs=`faleceu`
+  - texto: `José Pires da Cunha (faleceu).`
+- **par. 2933** (`segunda_parte_limpo.docx` par. local 1460) (tronco-raiz-04 / Filhos de José e Rita e seus respectivos cônjuges:)
+  - nome=`Adão Pires dos Reis e Maria Alice Donato Pires dos Reis e Maria de Jesus` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Adão Pires dos Reis e Maria Alice Donato Pires dos Reis e Maria de Jesus`
+- **par. 3028** (`segunda_parte_limpo.docx` par. local 1555) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Shirley Florence de Araújo Pires` · apelido=`Nazinha` · cônjuge=`None` · obs=`solteira`
+  - texto: `Shirley Florence de Araújo Pires (Nazinha) (solteira),`
+- **par. 3029** (`segunda_parte_limpo.docx` par. local 1556) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Nevileude Marisa de Araújo Pires` · apelido=`Dazinha` · cônjuge=`None` · obs=`solteira`
+  - texto: `Nevileude Marisa de Araújo Pires (Dazinha) (solteira),`
+- **par. 3030** (`segunda_parte_limpo.docx` par. local 1557) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Leônidas de Araújo Pires` · apelido=`Leôní` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Leônidas de Araújo Pires (Leôní) (solteiro),`
+- **par. 3031** (`segunda_parte_limpo.docx` par. local 1558) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Stela Maris de Araújo Pires` · apelido=`Fiinha` · cônjuge=`None` · obs=`solteira`
+  - texto: `Stela Maris de Araújo Pires (Fiinha) (solteira),`
+- **par. 3033** (`segunda_parte_limpo.docx` par. local 1560) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Mércia Hidelma de Araújo Lopes` · apelido=`None` · cônjuge=`José Luiz Lopes da Silva` · obs=`Zezinho`
+  - texto: `Mércia Hidelma de Araújo Lopes/José Luiz Lopes da Silva (Zezinho),`
+- **par. 3034** (`segunda_parte_limpo.docx` par. local 1561) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Luiz Carlos de Araújo Pires` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Luiz Carlos de Araújo Pires (solteiro) e`
+- **par. 3035** (`segunda_parte_limpo.docx` par. local 1562) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Francisco Soares da Silva` · apelido=`adotivo` · cônjuge=`Maria Domingas da Silva/Conceição` · obs=`1º casamento; 2º casamento`
+  - texto: `Francisco Soares da Silva (adotivo) (1º casamento)/Maria Domingas da Silva (2º casamento)/Conceição.`
+- **par. 3037** (`segunda_parte_limpo.docx` par. local 1564) (tronco-raiz-04 / Filhos de Tomazia e Manoel Divino e seus respectivos cônjuges:)
+  - nome=`Luiz,Tomázia, Leônidas, Estelamar, Nevileu de Sirley Mércia João Bosco Sirley` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Luiz,Tomázia, Leônidas, Estelamar, Nevileu de Sirley Mércia João Bosco Sirley`
+- **par. 3058** (`segunda_parte_limpo.docx` par. local 1585) (tronco-raiz-04 / Bisnetos de Tomazia e Manoel Divino:)
+  - nome=`Rafael, Gustavo, Isadora, Ciro, Letícia, Gabriel, Vinícius, Eduarda, Dhébora, Arthur, Samuel, Sarah, Yasmin, Sofia, Maria Eduarda e Samuel` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Rafael, Gustavo, Isadora, Ciro, Letícia, Gabriel, Vinícius, Eduarda, Dhébora, Arthur, Samuel, Sarah, Yasmin, Sofia, Maria Eduarda e Samuel.`
+- **par. 3079** (`segunda_parte_limpo.docx` par. local 1606) (tronco-raiz-04 / Filhos de Gerson e Maria:)
+  - nome=`Luiz Pires de Castro` · apelido=`None` · cônjuge=`None` · obs=`filho só do Gerson`
+  - texto: `Luiz Pires de Castro (filho só do Gerson).`
+- **par. 3087** (`segunda_parte_limpo.docx` par. local 1614) (tronco-raiz-04 / Bisnetos de Prudêncio e Anaídes:)
+  - nome=`Rainer, Renata, Rafaelle, Bruno, Luiz, Evellen, Poliana, Rana, Leonardo, Rafael, Mateus, Gerson Neto e Elena` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Rainer, Renata, Rafaelle, Bruno, Luiz, Evellen, Poliana, Rana, Leonardo, Rafael, Mateus, Gerson Neto e Elena.`
+- **par. 3089** (`segunda_parte_limpo.docx` par. local 1616) (tronco-raiz-04 / Trinetos de Prudêncio e Anaídes:)
+  - nome=`Maria Eduarda, Gabriel, Heitor, Rainer Júnior, Valentina e Bernardo` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Maria Eduarda, Gabriel, Heitor, Rainer Júnior, Valentina e Bernardo.`
+- **par. 3118** (`segunda_parte_limpo.docx` par. local 1645) (tronco-raiz-04 / Filhos de Dorival e Basilia:)
+  - nome=`Mardones Pires Martins` · apelido=`None` · cônjuge=`Elenice` · obs=`1ºcasamento`
+  - texto: `Mardones Pires Martins/Elenice (1ºcasamento),`
+- **par. 3119** (`segunda_parte_limpo.docx` par. local 1646) (tronco-raiz-04 / Filhos de Dorival e Basilia:)
+  - nome=`Mardones Pires Martins` · apelido=`None` · cônjuge=`Cleide Rodrigues de O. Martins` · obs=`2º casamento`
+  - texto: `Mardones Pires Martins/Cleide Rodrigues de O. Martins (2º casamento),`
+- **par. 3121** (`segunda_parte_limpo.docx` par. local 1648) (tronco-raiz-04 / Filhos de Dorival e Basilia:)
+  - nome=`Odeones Pires Martins` · apelido=`None` · cônjuge=`Tereza` · obs=`1º casamento`
+  - texto: `Odeones Pires Martins/Tereza(1º casamento),`
+- **par. 3122** (`segunda_parte_limpo.docx` par. local 1649) (tronco-raiz-04 / Filhos de Dorival e Basilia:)
+  - nome=`Odeones Pires Martins` · apelido=`None` · cônjuge=`Domingas` · obs=`2º casamento`
+  - texto: `Odeones Pires Martins/Domingas (2º casamento),`
+- **par. 3123** (`segunda_parte_limpo.docx` par. local 1650) (tronco-raiz-04 / Filhos de Dorival e Basilia:)
+  - nome=`Marnos Pires Martins` · apelido=`None` · cônjuge=`Ilza Costine` · obs=`1º casamento`
+  - texto: `Marnos Pires Martins/Ilza Costine (1º casamento),`
+- **par. 3124** (`segunda_parte_limpo.docx` par. local 1651) (tronco-raiz-04 / Filhos de Dorival e Basilia:)
+  - nome=`Marnos Pires Martins` · apelido=`None` · cônjuge=`Samyla` · obs=`2º casamento`
+  - texto: `Marnos Pires Martins/Samyla (2º casamento),`
+- **par. 3333** (`segunda_parte_limpo.docx` par. local 1860) (tronco-raiz-05 / primeira_geracao)
+  - nome=`Prudêncio Pires Martins (Cabuquim` · apelido=`None` · cônjuge=`Pupue)` · obs=`None`
+  - texto: `Prudêncio Pires Martins (Cabuquim /Pupue),`
+- **par. 3355** (`segunda_parte_limpo.docx` par. local 1882) (tronco-raiz-05 / Filhos de Prudência e Catarina e seus respectivos cônjuges:)
+  - nome=`José Pires Nunes` · apelido=`Zeca` · cônjuge=`Odilha Reis` · obs=`1º casamento`
+  - texto: `José Pires Nunes (Zeca)/Odilha Reis (1º casamento),`
+- **par. 3356** (`segunda_parte_limpo.docx` par. local 1883) (tronco-raiz-05 / Filhos de Prudência e Catarina e seus respectivos cônjuges:)
+  - nome=`José Pires Nunes` · apelido=`Zeca` · cônjuge=`Sueny` · obs=`2º casamento`
+  - texto: `José Pires Nunes (Zeca)/Sueny (2º casamento),`
+- **par. 3363** (`segunda_parte_limpo.docx` par. local 1890) (tronco-raiz-05 / Filhos de Prudência e Catarina e seus respectivos cônjuges:)
+  - nome=`Maria da Paz, Alba, Albertina, Maria Lúcia, Aurelice Jovino Aroldo José Manoel` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Maria da Paz, Alba, Albertina, Maria Lúcia, Aurelice Jovino Aroldo José Manoel`
+- **par. 3466** (`segunda_parte_limpo.docx` par. local 1993) (tronco-raiz-05 / Filhos de Pedro e Luiza:)
+  - nome=`Cleonardo Monteiro Pires` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda jovem`
+  - texto: `Cleonardo Monteiro Pires (faleceu ainda jovem) e`
+- **par. 3483** (`segunda_parte_limpo.docx` par. local 2010) (tronco-raiz-05 / Filhos de Iracema e Antônio e seus respectivos cônjuges:)
+  - nome=`Gévasio Martins Neres` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda jovem`
+  - texto: `Gévasio Martins Neres (faleceu ainda jovem),`
+- **par. 3484** (`segunda_parte_limpo.docx` par. local 2011) (tronco-raiz-05 / Filhos de Iracema e Antônio e seus respectivos cônjuges:)
+  - nome=`Lindalva Martins Neres` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Lindalva Martins Neres (faleceu ainda criança),`
+- **par. 3489** (`segunda_parte_limpo.docx` par. local 2016) (tronco-raiz-05 / Filhos de Iracema e Antônio e seus respectivos cônjuges:)
+  - nome=`Edivaldo Martins Neres` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Edivaldo Martins Neres (faleceu ainda criança),`
+- **par. 3511** (`segunda_parte_limpo.docx` par. local 2038) (tronco-raiz-05 / Flhos de Ibanês e Suely:)
+  - nome=`Reinaldo Bezerra Neres` · apelido=`None` · cônjuge=`None` · obs=`sem informações, reside no Maranhão`
+  - texto: `Reinaldo Bezerra Neres (sem informações, reside no Maranhão) e`
+- **par. 3512** (`segunda_parte_limpo.docx` par. local 2039) (tronco-raiz-05 / Flhos de Ibanês e Suely:)
+  - nome=`Arnaldo Bezerra Neres` · apelido=`None` · cônjuge=`None` · obs=`tem dois filhos, sem mais informações`
+  - texto: `Arnaldo Bezerra Neres (tem dois filhos, sem mais informações).`
+- **par. 3541** (`segunda_parte_limpo.docx` par. local 2068) (tronco-raiz-05 / Bisnetos de Iracema e Antônio:)
+  - nome=`João Miguel, Marcelo Junior, Artur, João Henrique, Iara e Liz` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `João Miguel, Marcelo Junior, Artur, João Henrique, Iara e Liz.`
+- **par. 3569** (`segunda_parte_limpo.docx` par. local 2096) (tronco-raiz-06 / Filhos de Ênnio e Lubelia e seus respectivos cônjuges:)
+  - nome=`Dulcineia Pinheiro Pires` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Dulcineia Pinheiro Pires (faleceu ainda criança),`
+- **par. 3570** (`segunda_parte_limpo.docx` par. local 2097) (tronco-raiz-06 / Filhos de Ênnio e Lubelia e seus respectivos cônjuges:)
+  - nome=`Donatila Pinheiro Pires` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Donatila Pinheiro Pires (faleceu ainda criança),`
+- **par. 3571** (`segunda_parte_limpo.docx` par. local 2098) (tronco-raiz-06 / Filhos de Ênnio e Lubelia e seus respectivos cônjuges:)
+  - nome=`Chanaan Pinheiro Pires` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Chanaan Pinheiro Pires (faleceu ainda criança),`
+- **par. 3572** (`segunda_parte_limpo.docx` par. local 2099) (tronco-raiz-06 / Filhos de Ênnio e Lubelia e seus respectivos cônjuges:)
+  - nome=`Lenine Pinheiro Pires` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Lenine Pinheiro Pires (faleceu ainda criança) e`
+- **par. 3575** (`segunda_parte_limpo.docx` par. local 2102) (tronco-raiz-06 / Filhos de Ênnio e Lubelia e seus respectivos cônjuges:)
+  - nome=`Erasmo de Monção Pires Certidão de Nascimento da filha Siderea` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Erasmo de Monção Pires Certidão de Nascimento da filha Siderea`
+- **par. 3582** (`segunda_parte_limpo.docx` par. local 2109) (tronco-raiz-06 / Filhos de Erasmo e Sandra:)
+  - nome=`Enio Tasso de Monção Pires Neto` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda jovem`
+  - texto: `Enio Tasso de Monção Pires Neto (faleceu ainda jovem),`
+- **par. 3611** (`segunda_parte_limpo.docx` par. local 2138) (tronco-raiz-06 / Filho de Rabindranath Tagore:)
+  - nome=`João Marcos de Arruda Pires` · apelido=`None` · cônjuge=`None` · obs=`sem mais informações`
+  - texto: `João Marcos de Arruda Pires (sem mais informações).`
+- **par. 3744** (`segunda_parte_limpo.docx` par. local 2271) (tronco-raiz-11 / Filhos de Manoel e Martinha e seus respectivos cônjuges:)
+  - nome=`Carlito Lopes Campos` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Carlito Lopes Campos (faleceu ainda criança) e`
+- **par. 3745** (`segunda_parte_limpo.docx` par. local 2272) (tronco-raiz-11 / Filhos de Manoel e Martinha e seus respectivos cônjuges:)
+  - nome=`José Adriano` · apelido=`None` · cônjuge=`None` · obs=`filho do segundo casamento de Martinha`
+  - texto: `José Adriano (filho do segundo casamento de Martinha).`
+- **par. 3767** (`segunda_parte_limpo.docx` par. local 2294) (tronco-raiz-11 / Filhos de Salvador e Maria de Fátima:)
+  - nome=`Marilene Pires Campos` · apelido=`None` · cônjuge=`Helio` · obs=`1ºcasamento`
+  - texto: `Marilene Pires Campos/Helio (1ºcasamento),`
+- **par. 3768** (`segunda_parte_limpo.docx` par. local 2295) (tronco-raiz-11 / Filhos de Salvador e Maria de Fátima:)
+  - nome=`Marilene Pires Campos` · apelido=`None` · cônjuge=`Antônio` · obs=`2ºcasamento`
+  - texto: `Marilene Pires Campos/Antônio (2ºcasamento),`
+- **par. 3827** (`segunda_parte_limpo.docx` par. local 2354) (tronco-raiz-12 / Filhos de Francisca e Manoel e seus respectivos cônjuges:)
+  - nome=`Francelina Pires do Nascimento` · apelido=`None` · cônjuge=`Lazaro B. de Faria` · obs=`1º casamento`
+  - texto: `Francelina Pires do Nascimento/Lazaro B. de Faria (1º casamento),`
+- **par. 3828** (`segunda_parte_limpo.docx` par. local 2355) (tronco-raiz-12 / Filhos de Francisca e Manoel e seus respectivos cônjuges:)
+  - nome=`Francelina Pires do Nascimento` · apelido=`None` · cônjuge=`Arnezindo Machado Silva` · obs=`2º casamento`
+  - texto: `Francelina Pires do Nascimento/Arnezindo Machado Silva (2º casamento),`
+- **par. 3830** (`segunda_parte_limpo.docx` par. local 2357) (tronco-raiz-12 / Filhos de Francisca e Manoel e seus respectivos cônjuges:)
+  - nome=`Sebastiana Pires do Nascimento` · apelido=`None` · cônjuge=`José Trindade` · obs=`1º casamento`
+  - texto: `Sebastiana Pires do Nascimento/José Trindade (1º casamento),`
+- **par. 3831** (`segunda_parte_limpo.docx` par. local 2358) (tronco-raiz-12 / Filhos de Francisca e Manoel e seus respectivos cônjuges:)
+  - nome=`Sebastiana Pires do Nascimento` · apelido=`None` · cônjuge=`João Batista Fagundes` · obs=`2º casamento`
+  - texto: `Sebastiana Pires do Nascimento/João Batista Fagundes (2º casamento),`
+- **par. 3835** (`segunda_parte_limpo.docx` par. local 2362) (tronco-raiz-12 / Filhos de Francisca e Manoel e seus respectivos cônjuges:)
+  - nome=`Ana, Francelina, Luiza, Sebastiana e Helena Pedro` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Ana, Francelina, Luiza, Sebastiana e Helena Pedro`
+- **par. 3850** (`segunda_parte_limpo.docx` par. local 2377) (tronco-raiz-12 / Bisnetos de Francisca e Manoel:)
+  - nome=`Larissa, Leonardo, Hector, Hecson, Vanessa, Rodrigo, Murilo, Erica, Adelson Neto Leopoldo, Luis Filho, Joaquim, Leandro, Sandro, Fernando, Tatiane, Guilherme` · apelido=`Juca` · cônjuge=`None` · obs=`None`
+  - texto: `Larissa, Leonardo, Hector, Hecson, Vanessa, Rodrigo, Murilo, Erica, Adelson Neto Leopoldo, Luis Filho, Joaquim (Juca), Leandro, Sandro, Fernando, Tatiane, Guilherme`
+- **par. 3861** (`segunda_parte_limpo.docx` par. local 2388) (tronco-raiz-12 / Filhos de Felix e Maria e seus respectivos cônjuges:)
+  - nome=`Ana Fernandes de Oliveira` · apelido=`Anisa` · cônjuge=`João Batista` · obs=`Caiçara`
+  - texto: `Ana Fernandes de Oliveira (Anisa)/João Batista(Caiçara).`
+- **par. 3889** (`segunda_parte_limpo.docx` par. local 2416) (tronco-raiz-12 / Bisnetos de Felix e Maria:)
+  - nome=`Antônia, Derocy, Ercilio, Nazir, Salomão, Terezinha e Zilda` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Antônia, Derocy, Ercilio, Nazir, Salomão, Terezinha e Zilda.`
+- **par. 3902** (`segunda_parte_limpo.docx` par. local 2429) (tronco-raiz-12 / Filhos de Faustino:)
+  - nome=`porém não obtivemos mais informações)` · apelido=`None` · cônjuge=`None` · obs=`tiveram três filhos, moravam em Miracema (TO`
+  - texto: `(tiveram três filhos, moravam em Miracema (TO), porém não obtivemos mais informações).`
+- **par. 3933** (`segunda_parte_limpo.docx` par. local 2460) (tronco-raiz-13 / Filhos de Abel e Joana e seus respectivos cônjuges:)
+  - nome=`Maria Pereira de Oliveira` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Maria Pereira de Oliveira (faleceu ainda criança),`
+- **par. 3934** (`segunda_parte_limpo.docx` par. local 2461) (tronco-raiz-13 / Filhos de Abel e Joana e seus respectivos cônjuges:)
+  - nome=`Emiliana Pereira de Oliveira` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Emiliana Pereira de Oliveira (faleceu ainda criança),`
+- **par. 3935** (`segunda_parte_limpo.docx` par. local 2462) (tronco-raiz-13 / Filhos de Abel e Joana e seus respectivos cônjuges:)
+  - nome=`Ivanilde Pereira de Oliveira` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Ivanilde Pereira de Oliveira (solteira),`
+- **par. 3939** (`segunda_parte_limpo.docx` par. local 2466) (tronco-raiz-13 / Filhos de Abel e Joana e seus respectivos cônjuges:)
+  - nome=`Cecílio Pereira de Oliveira` · apelido=`None` · cônjuge=`Maria Sousa de Oliveira` · obs=`Socorro`
+  - texto: `Cecílio Pereira de Oliveira/Maria Sousa de Oliveira (Socorro),`
+- **par. 3943** (`segunda_parte_limpo.docx` par. local 2470) (tronco-raiz-13 / Filhos de Abel e Joana e seus respectivos cônjuges:)
+  - nome=`Terezinha Pereira de Oliveira` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Terezinha Pereira de Oliveira (faleceu ainda criança).`
+- **par. 3945** (`segunda_parte_limpo.docx` par. local 2472) (tronco-raiz-13 / Filhos de Abel e Joana e seus respectivos cônjuges:)
+  - nome=`Jaime, Ivanilde, José, Aldenora, Aldaires, Cecilio, João, Francisco e Maximino` · apelido=`None` · cônjuge=`None` · obs=`None`
+  - texto: `Jaime, Ivanilde, José, Aldenora, Aldaires, Cecilio, João, Francisco e Maximino`
+- **par. 4058** (`segunda_parte_limpo.docx` par. local 2585) (tronco-raiz-14 / Filhos de Pedro e Nazaré e seus respectivos cônjuges:)
+  - nome=`Justiniana Lopes de Sousa` · apelido=`None` · cônjuge=`Antônio Pereira da Silva` · obs=`Galdino`
+  - texto: `Justiniana Lopes de Sousa/Antônio Pereira da Silva (Galdino),`
+- **par. 4060** (`segunda_parte_limpo.docx` par. local 2587) (tronco-raiz-14 / Filhos de Pedro e Nazaré e seus respectivos cônjuges:)
+  - nome=`Luis Lopes de Sousa` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Luis Lopes de Sousa (solteiro).`
+- **par. 4075** (`segunda_parte_limpo.docx` par. local 2602) (tronco-raiz-14 / Filhos de Pedro e Maria e seus respectivos cônjuges:)
+  - nome=`Lenir Pires Barros` · apelido=`None` · cônjuge=`José Fonseca da Silva` · obs=`1º casamento`
+  - texto: `Lenir Pires Barros (1º casamento)/José Fonseca da Silva,`
+- **par. 4076** (`segunda_parte_limpo.docx` par. local 2603) (tronco-raiz-14 / Filhos de Pedro e Maria e seus respectivos cônjuges:)
+  - nome=`Lenir Pires Barros (2º casamento` · apelido=`None` · cônjuge=`José barbosa de Oliveira` · obs=`None`
+  - texto: `Lenir Pires Barros (2º casamento/José barbosa de Oliveira,`
+- **par. 4077** (`segunda_parte_limpo.docx` par. local 2604) (tronco-raiz-14 / Filhos de Pedro e Maria e seus respectivos cônjuges:)
+  - nome=`Antônio Pires Barros` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Antônio Pires Barros (solteiro),`
+- **par. 4078** (`segunda_parte_limpo.docx` par. local 2605) (tronco-raiz-14 / Filhos de Pedro e Maria e seus respectivos cônjuges:)
+  - nome=`Manoel Barros de Oliveira` · apelido=`None` · cônjuge=`None` · obs=`faleceu ainda criança`
+  - texto: `Manoel Barros de Oliveira (faleceu ainda criança),`
+- **par. 4084** (`segunda_parte_limpo.docx` par. local 2611) (tronco-raiz-14 / Filhos de Pedro e Maria e seus respectivos cônjuges:)
+  - nome=`Jardilina Alves Barros` · apelido=`Preta` · cônjuge=`None` · obs=`filha só de Maria Salviana`
+  - texto: `Jardilina Alves Barros (Preta) (filha só de Maria Salviana).`
+- **par. 4167** (`segunda_parte_limpo.docx` par. local 2694) (tronco-raiz-17 / Filhos de Adelaide e Inês e seus respectivos cônjuges:)
+  - nome=`Tarcisio Pires dos Santos` · apelido=`adotivo` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Tarcisio Pires dos Santos (adotivo) (solteiro) e`
+- **par. 4175** (`segunda_parte_limpo.docx` par. local 2702) (tronco-raiz-17 / Filhos de Ángelo e Lindalva:)
+  - nome=`Antônio Carlos de Andrade Pires` · apelido=`None` · cônjuge=`None` · obs=`solteiro`
+  - texto: `Antônio Carlos de Andrade Pires (solteiro),`
+- **par. 4176** (`segunda_parte_limpo.docx` par. local 2703) (tronco-raiz-17 / Filhos de Ángelo e Lindalva:)
+  - nome=`Neurane Pires de Andrade` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Neurane Pires de Andrade (solteira) e`
+- **par. 4177** (`segunda_parte_limpo.docx` par. local 2704) (tronco-raiz-17 / Filhos de Ángelo e Lindalva:)
+  - nome=`Sirlei de Andrade Pires` · apelido=`None` · cônjuge=`None` · obs=`solteira`
+  - texto: `Sirlei de Andrade Pires (solteira).`
+- **par. 4196** (`segunda_parte_limpo.docx` par. local 2723) (tronco-raiz-17 / Filhos de Felipe Anália e seus respectivos cônjuges:)
+  - nome=`Paulo Cezar Pires Leite` · apelido=`None` · cônjuge=`Maria Alves Pereira` · obs=`1º casamento`
+  - texto: `Paulo Cezar Pires Leite (1º casamento)/Maria Alves Pereira,`
+- **par. 4197** (`segunda_parte_limpo.docx` par. local 2724) (tronco-raiz-17 / Filhos de Felipe Anália e seus respectivos cônjuges:)
+  - nome=`Paulo Cezar Pires Leite` · apelido=`None` · cônjuge=`Luiza Alves Pereira` · obs=`2º casamento`
+  - texto: `Paulo Cezar Pires Leite (2º casamento)/Luiza Alves Pereira,`
+- **par. 4201** (`segunda_parte_limpo.docx` par. local 2728) (tronco-raiz-17 / Filhos de Felipe Anália e seus respectivos cônjuges:)
+  - nome=`Osvaldo Pires Leite` · apelido=`None` · cônjuge=`Maria Lopes Campos/ Teresa Dias Leite` · obs=`1º casamento`
+  - texto: `Osvaldo Pires Leite (1º casamento)/Maria Lopes Campos/ Teresa Dias Leite`
+- **par. 4259** (`segunda_parte_limpo.docx` par. local 2786) (tronco-raiz-17 / Filhos de Maria e Salvador:)
+  - nome=`Márço dos Santos Campos` · apelido=`None` · cônjuge=`None` · obs=`filho só de Salvador`
+  - texto: `Márço dos Santos Campos (filho só de Salvador).`
+- **par. 4277** (`segunda_parte_limpo.docx` par. local 2804) (tronco-raiz-17 / Filhos de Josefa e Melquiades:)
+  - nome=`Benedita Pires dos Reis` · apelido=`None` · cônjuge=`None` · obs=`residia em Trindade (GO`
+  - texto: `Benedita Pires dos Reis (residia em Trindade (GO),`
