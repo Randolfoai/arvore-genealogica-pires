@@ -18495,164 +18495,133 @@
                   "paragrafo_idx": 2390,
                   "arquivo_origem": "segunda_parte_limpo.docx",
                   "paragrafo_idx_local": 917
+                },
+                {
+                  "nome": "Tronco- raiz",
+                  "apelido": null,
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Tronco- raiz",
+                  "paragrafo_idx": 2391,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 918
+                },
+                {
+                  "nome": "Florência de Sousa Pires de Araújo",
+                  "apelido": "Tia Flor",
+                  "conjuge": null,
+                  "observacao": "filha de Prudêncio e Fausta",
+                  "confianca": "media",
+                  "texto_original": "Florência de Sousa Pires de Araújo (Tia Flor) (filha de Prudêncio e Fausta).",
+                  "paragrafo_idx": 2392,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 919
+                },
+                {
+                  "nome": "Esposo: Aniceto Pereira do Nascimento Araújo e Justina Cunha Araújo)",
+                  "apelido": null,
+                  "conjuge": null,
+                  "observacao": "filho de Manoel Pereira do Nascimento (Manoelzinho",
+                  "confianca": "media",
+                  "texto_original": "Esposo: Aniceto Pereira do Nascimento Araújo (filho de Manoel Pereira do Nascimento (Manoelzinho) e Justina Cunha Araújo).",
+                  "paragrafo_idx": 2393,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 920
+                }
+              ]
+            },
+            {
+              "nivel": "filhos",
+              "rotulo_original": "Filhos de Florência e Aniceto (denominados Tronco).",
+              "referencia": "Florência e Aniceto",
+              "paragrafo_idx": 2401,
+              "arquivo_origem": "segunda_parte_limpo.docx",
+              "paragrafo_idx_local": 928,
+              "pessoas": [
+                {
+                  "nome": "Alderina Pires de Araújo",
+                  "apelido": null,
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Alderina Pires de Araújo,",
+                  "paragrafo_idx": 2402,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 929
+                },
+                {
+                  "nome": "Antônio Pires de Araújo",
+                  "apelido": null,
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Antônio Pires de Araújo,",
+                  "paragrafo_idx": 2403,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 930
+                },
+                {
+                  "nome": "Ana Rita Pires de Araújo",
+                  "apelido": "Duca",
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Ana Rita Pires de Araújo (Duca),",
+                  "paragrafo_idx": 2404,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 931
+                },
+                {
+                  "nome": "José Pires de Araújo",
+                  "apelido": "Zéca Pires",
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "José Pires de Araújo (Zéca Pires),",
+                  "paragrafo_idx": 2405,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 932
+                },
+                {
+                  "nome": "Monoel Divino Pires de Araújo",
+                  "apelido": "Divino",
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Monoel Divino Pires de Araújo (Divino),",
+                  "paragrafo_idx": 2406,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 933
+                },
+                {
+                  "nome": "Prudêncio Pires de Araújo",
+                  "apelido": null,
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Prudêncio Pires de Araújo e",
+                  "paragrafo_idx": 2407,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 934
+                },
+                {
+                  "nome": "Telécio Pires de Araújo",
+                  "apelido": null,
+                  "conjuge": null,
+                  "observacao": null,
+                  "confianca": "alta",
+                  "texto_original": "Telécio Pires de Araújo.",
+                  "paragrafo_idx": 2408,
+                  "arquivo_origem": "segunda_parte_limpo.docx",
+                  "paragrafo_idx_local": 935
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "tronco-raiz-05",
-      "rotulo_separador": "Tronco- raiz",
-      "paragrafo_idx": 2391,
-      "arquivo_origem": "segunda_parte_limpo.docx",
-      "paragrafo_idx_local": 918,
-      "casal": [
-        {
-          "texto_original": "Florência de Sousa Pires de Araújo (Tia Flor) (filha de Prudêncio e Fausta).",
-          "paragrafo_idx": 2392,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 919
         },
         {
-          "texto_original": "Esposo: Aniceto Pereira do Nascimento Araújo (filho de Manoel Pereira do Nascimento (Manoelzinho) e Justina Cunha Araújo).",
-          "paragrafo_idx": 2393,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 920
-        },
-        {
-          "texto_original": "Florência de Sousa Pires de Araújo e Aniceto Pereira do Nascimento Araújo eram maranhenses. Ela era natural de Santa Cruz, e ele, de Jenipapo, localidades pertencentes ao município de Carolina (MA). Florência tinha 21 anos e Aniceto, 30, quando, no dia 7 de setembro de 1893, casaram-se na cidade de Carolina.",
-          "paragrafo_idx": 2394,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 921
-        },
-        {
-          "texto_original": "Ambos descendiam de famílias tradicionais e conceituadas, proprietárias de grandes fazendas na região. Ao receberem seus dotes, decidiram construir o próprio patrimônio. Assim, adquiriram e estruturaram uma propriedade, à qual deram o nome de Fazenda Mundo Novo, localizada entre os rios Farinha e Feio, no município de Carolina, área que hoje pertence ao município de Estreito (MA).",
-          "paragrafo_idx": 2395,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 922
-        },
-        {
-          "texto_original": "O casal teve sete filhos, que cresceram e, seguindo o curso natural da vida, deixaram o lar para constituir suas próprias famílias e construir suas histórias. Após o falecimento de Aniceto, Florência permaneceu na Fazenda Mundo Novo, administrando os negócios da família. Com o passar dos anos, porém, e à medida que os filhos foram deixando a propriedade, “Flor Pires”, como era conhecida no Maranhão, passou a enfrentar dificuldades para conduzir a fazenda sozinha.",
-          "paragrafo_idx": 2396,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 923
-        },
-        {
-          "texto_original": "Foi então que seu cunhado Marinzinho, já estabelecido no então Norte de Goiás, onde era proprietário da Fazenda Bacaba, no município de Itacajá, e da Fazenda Serrinha, na localidade de Panela de Ferro, sugeriu que Florência adquirisse uma propriedade na mesma região, para ficar mais próxima dos filhos Prudêncio, Telecio, Zeca Pires e Alderina, que já estavam ali estabelecidos.",
-          "paragrafo_idx": 2397,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 924
-        },
-        {
-          "texto_original": "Seguindo esse conselho, Florência adquiriu a Fazenda Fernandina, localizada às margens dos ribeirões Foveiro e Panela de Ferro, no município de Itacajá, então Goiás, hoje Tupiratins, no Tocantins, para onde também transferiu seu rebanho e os demais animais da fazenda. Ali permaneceu por vários anos, deixando a propriedade apenas após o falecimento de sua nora Isaura. Com o propósito de cuidar dos netos, mudou-se para a Fazenda São Bento, de propriedade de seu filho Antônio Pires de Araújo, localizada no município de Miracema do Norte (GO), atual Miracema do Tocantins (TO).",
-          "paragrafo_idx": 2398,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 925
-        },
-        {
-          "texto_original": "Florência de Sousa Pires de Araújo foi uma mulher guerreira, determinada e de personalidade forte, que jamais se deixou abater pelas adversidades. “Flor Pires”, “Mãe Flor” ou “Tia Flor”, como era carinhosamente conhecida, viveu seus últimos anos na Fazenda São Bento. Após seu falecimento, foi sepultada no cemitério localizado na Fazenda Palmeiras, de propriedade do sr. Nereu Gonzales Vasconcelos, onde também se encontra o túmulo de sua nora Isaura Florência. Naquela época, esse era o cemitério utilizado pelos moradores da região. Florência deixou uma história de coragem, trabalho e dedicação, além de um valioso legado para seus filhos, descendentes e toda a família.",
-          "paragrafo_idx": 2399,
-          "arquivo_origem": "segunda_parte_limpo.docx",
-          "paragrafo_idx_local": 926
-        }
-      ],
-      "resumo_autor": null,
-      "biografia_idx": [
-        2400
-      ],
-      "primeira_geracao": {
-        "nivel": "filhos",
-        "rotulo_original": "Filhos de Florência e Aniceto (denominados Tronco).",
-        "referencia": "Florência e Aniceto",
-        "denominados": "Tronco",
-        "paragrafo_idx": 2401,
-        "arquivo_origem": "segunda_parte_limpo.docx",
-        "paragrafo_idx_local": 928,
-        "pessoas": [
-          {
-            "nome": "Alderina Pires de Araújo",
-            "apelido": null,
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "Alderina Pires de Araújo,",
-            "paragrafo_idx": 2402,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 929
-          },
-          {
-            "nome": "Antônio Pires de Araújo",
-            "apelido": null,
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "Antônio Pires de Araújo,",
-            "paragrafo_idx": 2403,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 930
-          },
-          {
-            "nome": "Ana Rita Pires de Araújo",
-            "apelido": "Duca",
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "Ana Rita Pires de Araújo (Duca),",
-            "paragrafo_idx": 2404,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 931
-          },
-          {
-            "nome": "José Pires de Araújo",
-            "apelido": "Zéca Pires",
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "José Pires de Araújo (Zéca Pires),",
-            "paragrafo_idx": 2405,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 932
-          },
-          {
-            "nome": "Monoel Divino Pires de Araújo",
-            "apelido": "Divino",
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "Monoel Divino Pires de Araújo (Divino),",
-            "paragrafo_idx": 2406,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 933
-          },
-          {
-            "nome": "Prudêncio Pires de Araújo",
-            "apelido": null,
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "Prudêncio Pires de Araújo e",
-            "paragrafo_idx": 2407,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 934
-          },
-          {
-            "nome": "Telécio Pires de Araújo",
-            "apelido": null,
-            "conjuge": null,
-            "observacao": null,
-            "confianca": "alta",
-            "texto_original": "Telécio Pires de Araújo.",
-            "paragrafo_idx": 2408,
-            "arquivo_origem": "segunda_parte_limpo.docx",
-            "paragrafo_idx_local": 935
-          }
-        ]
-      },
-      "troncos_familiares": [
-        {
-          "id": "tronco-raiz-05-tf-29",
+          "id": "tronco-raiz-04-tf-29",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 2409,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -20429,7 +20398,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-05-tf-30",
+          "id": "tronco-raiz-04-tf-30",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 2578,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -23498,7 +23467,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-05-tf-31",
+          "id": "tronco-raiz-04-tf-31",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 2870,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -23956,7 +23925,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-05-tf-32",
+          "id": "tronco-raiz-04-tf-32",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 2921,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -24918,7 +24887,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-05-tf-33",
+          "id": "tronco-raiz-04-tf-33",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3015,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -25294,7 +25263,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-05-tf-34",
+          "id": "tronco-raiz-04-tf-34",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3059,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -25558,7 +25527,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-05-tf-35",
+          "id": "tronco-raiz-04-tf-35",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3090,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -28033,7 +28002,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-06",
+      "id": "tronco-raiz-05",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3322,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -28147,7 +28116,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-06-tf-36",
+          "id": "tronco-raiz-05-tf-36",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3339,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -28942,7 +28911,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-06-tf-37",
+          "id": "tronco-raiz-05-tf-37",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3419,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -29209,7 +29178,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-06-tf-38",
+          "id": "tronco-raiz-05-tf-38",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3448,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -29423,7 +29392,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-06-tf-39",
+          "id": "tronco-raiz-05-tf-39",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3472,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30064,7 +30033,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-07",
+      "id": "tronco-raiz-06",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3542,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30178,7 +30147,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-07-tf-40",
+          "id": "tronco-raiz-06-tf-40",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3557,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30539,7 +30508,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-07-tf-41",
+          "id": "tronco-raiz-06-tf-41",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3596,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30599,7 +30568,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-07-tf-42",
+          "id": "tronco-raiz-06-tf-42",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3605,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30649,7 +30618,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-08",
+      "id": "tronco-raiz-07",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3612,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30699,7 +30668,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-08-tf-43",
+          "id": "tronco-raiz-07-tf-43",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3621,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30734,7 +30703,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-09",
+      "id": "tronco-raiz-08",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3626,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30792,7 +30761,7 @@
       "troncos_familiares": []
     },
     {
-      "id": "tronco-raiz-10",
+      "id": "tronco-raiz-09",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3635,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30849,7 +30818,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-10-tf-44",
+          "id": "tronco-raiz-09-tf-44",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3642,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30894,7 +30863,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-11",
+      "id": "tronco-raiz-10",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3669,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30942,7 +30911,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-11-tf-45",
+          "id": "tronco-raiz-10-tf-45",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3677,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -30967,7 +30936,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-12",
+      "id": "tronco-raiz-11",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3680,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31118,7 +31087,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-12-tf-46",
+          "id": "tronco-raiz-11-tf-46",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3696,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31151,7 +31120,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-47",
+          "id": "tronco-raiz-11-tf-47",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3701,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31174,7 +31143,7 @@
           "geracoes": []
         },
         {
-          "id": "tronco-raiz-12-tf-48",
+          "id": "tronco-raiz-11-tf-48",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3704,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31270,7 +31239,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-49",
+          "id": "tronco-raiz-11-tf-49",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3717,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31449,7 +31418,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-50",
+          "id": "tronco-raiz-11-tf-50",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3737,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31894,7 +31863,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-51",
+          "id": "tronco-raiz-11-tf-51",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3780,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -31972,7 +31941,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-52",
+          "id": "tronco-raiz-11-tf-52",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3788,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32005,7 +31974,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-53",
+          "id": "tronco-raiz-11-tf-53",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3793,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32038,7 +32007,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-54",
+          "id": "tronco-raiz-11-tf-54",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3798,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32071,7 +32040,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-12-tf-55",
+          "id": "tronco-raiz-11-tf-55",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3803,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32096,7 +32065,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-13",
+      "id": "tronco-raiz-12",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3806,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32210,7 +32179,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-13-tf-56",
+          "id": "tronco-raiz-12-tf-56",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3820,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32519,7 +32488,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-13-tf-57",
+          "id": "tronco-raiz-12-tf-57",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3853,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32552,7 +32521,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-13-tf-58",
+          "id": "tronco-raiz-12-tf-58",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3857,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32892,7 +32861,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-13-tf-59",
+          "id": "tronco-raiz-12-tf-59",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3890,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -32987,7 +32956,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-14",
+      "id": "tronco-raiz-13",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 3903,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -33036,7 +33005,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-14-tf-60",
+          "id": "tronco-raiz-13-tf-60",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 3911,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -34219,7 +34188,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-15",
+      "id": "tronco-raiz-14",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 4037,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -34294,7 +34263,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-15-tf-61",
+          "id": "tronco-raiz-14-tf-61",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4047,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -34388,7 +34357,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-15-tf-62",
+          "id": "tronco-raiz-14-tf-62",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4065,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35110,7 +35079,7 @@
       ]
     },
     {
-      "id": "tronco-raiz-16",
+      "id": "tronco-raiz-15",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 4136,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35137,7 +35106,7 @@
       "troncos_familiares": []
     },
     {
-      "id": "tronco-raiz-17",
+      "id": "tronco-raiz-16",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 4140,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35168,7 +35137,7 @@
       "troncos_familiares": []
     },
     {
-      "id": "tronco-raiz-18",
+      "id": "tronco-raiz-17",
       "rotulo_separador": "Tronco-raiz",
       "paragrafo_idx": 4144,
       "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35281,7 +35250,7 @@
       },
       "troncos_familiares": [
         {
-          "id": "tronco-raiz-18-tf-63",
+          "id": "tronco-raiz-17-tf-63",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4157,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35314,7 +35283,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-18-tf-64",
+          "id": "tronco-raiz-17-tf-64",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4162,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35466,7 +35435,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-18-tf-65",
+          "id": "tronco-raiz-17-tf-65",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4178,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35505,7 +35474,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-18-tf-66",
+          "id": "tronco-raiz-17-tf-66",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4184,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -35528,7 +35497,7 @@
           "geracoes": []
         },
         {
-          "id": "tronco-raiz-18-tf-67",
+          "id": "tronco-raiz-17-tf-67",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4187,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -36355,7 +36324,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-18-tf-68",
+          "id": "tronco-raiz-17-tf-68",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4269,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -36388,7 +36357,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-18-tf-69",
+          "id": "tronco-raiz-17-tf-69",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4273,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -36497,7 +36466,7 @@
           ]
         },
         {
-          "id": "tronco-raiz-18-tf-70",
+          "id": "tronco-raiz-17-tf-70",
           "rotulo_separador": "Tronco",
           "paragrafo_idx": 4284,
           "arquivo_origem": "segunda_parte_limpo.docx",
@@ -38080,6 +38049,62 @@
       "paragrafo_idx_local": 917,
       "texto_original": "Augusto, Cecília, Helena e Aurora.",
       "nota": "Possivel mais de uma pessoa no mesmo paragrafo (virgula interna)."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2394,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 921,
+      "texto_original": "Florência de Sousa Pires de Araújo e Aniceto Pereira do Nascimento Araújo eram maranhenses. Ela era natural de Santa Cruz, e ele, de Jenipapo, localidades pertencentes ao município de Carolina (MA). Florência tinha 21 anos e Aniceto, 30, quando, no dia 7 de setembro de 1893, casaram-se na cidade de Carolina.",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2395,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 922,
+      "texto_original": "Ambos descendiam de famílias tradicionais e conceituadas, proprietárias de grandes fazendas na região. Ao receberem seus dotes, decidiram construir o próprio patrimônio. Assim, adquiriram e estruturaram uma propriedade, à qual deram o nome de Fazenda Mundo Novo, localizada entre os rios Farinha e Feio, no município de Carolina, área que hoje pertence ao município de Estreito (MA).",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2396,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 923,
+      "texto_original": "O casal teve sete filhos, que cresceram e, seguindo o curso natural da vida, deixaram o lar para constituir suas próprias famílias e construir suas histórias. Após o falecimento de Aniceto, Florência permaneceu na Fazenda Mundo Novo, administrando os negócios da família. Com o passar dos anos, porém, e à medida que os filhos foram deixando a propriedade, “Flor Pires”, como era conhecida no Maranhão, passou a enfrentar dificuldades para conduzir a fazenda sozinha.",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2397,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 924,
+      "texto_original": "Foi então que seu cunhado Marinzinho, já estabelecido no então Norte de Goiás, onde era proprietário da Fazenda Bacaba, no município de Itacajá, e da Fazenda Serrinha, na localidade de Panela de Ferro, sugeriu que Florência adquirisse uma propriedade na mesma região, para ficar mais próxima dos filhos Prudêncio, Telecio, Zeca Pires e Alderina, que já estavam ali estabelecidos.",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2398,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 925,
+      "texto_original": "Seguindo esse conselho, Florência adquiriu a Fazenda Fernandina, localizada às margens dos ribeirões Foveiro e Panela de Ferro, no município de Itacajá, então Goiás, hoje Tupiratins, no Tocantins, para onde também transferiu seu rebanho e os demais animais da fazenda. Ali permaneceu por vários anos, deixando a propriedade apenas após o falecimento de sua nora Isaura. Com o propósito de cuidar dos netos, mudou-se para a Fazenda São Bento, de propriedade de seu filho Antônio Pires de Araújo, localizada no município de Miracema do Norte (GO), atual Miracema do Tocantins (TO).",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2399,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 926,
+      "texto_original": "Florência de Sousa Pires de Araújo foi uma mulher guerreira, determinada e de personalidade forte, que jamais se deixou abater pelas adversidades. “Flor Pires”, “Mãe Flor” ou “Tia Flor”, como era carinhosamente conhecida, viveu seus últimos anos na Fazenda São Bento. Após seu falecimento, foi sepultada no cemitério localizado na Fazenda Palmeiras, de propriedade do sr. Nereu Gonzales Vasconcelos, onde também se encontra o túmulo de sua nora Isaura Florência. Naquela época, esse era o cemitério utilizado pelos moradores da região. Florência deixou uma história de coragem, trabalho e dedicação, além de um valioso legado para seus filhos, descendentes e toda a família.",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
+    },
+    {
+      "tipo": "item_vs_narrativa",
+      "paragrafo_idx": 2400,
+      "arquivo_origem": "segunda_parte_limpo.docx",
+      "paragrafo_idx_local": 927,
+      "texto_original": "Estão relacionados neste trabalho, devidamente catalogados por gerações, 867 descendentes desse tronco-raiz, Florência de Sousa Pires de Araújo e Aniceto Pereira do Nascimento Araújo, sendo sete filhos, denominados Tronco, 42 netos, 229 bisnetos, 399 trinetos, 190 tetranetos e 8 tataranetos, identificados até junho de 2026, data de fechamento desta edição. Pode haver mais membros desse Tronco-raiz sobre os quais não conseguimos informações.",
+      "nota": "Dentro de geracao mas com forma de narrativa/legenda; nao virou pessoa."
     },
     {
       "tipo": "legenda_apos_foto",
