@@ -4,9 +4,16 @@
 <meta charset="utf-8">
 <title>Acesso — Família Pires</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script>
+  // Forçar recarga se página estiver em cache
+  if (performance.navigation.type === 1) {
+    window.location.reload();
+  }
+</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&display=swap">
 <style>
 :root{
@@ -61,8 +68,8 @@ body{background:var(--bg); color:var(--ink); font-family:var(--font-sans); margi
   <div id="msg"></div>
 
   <div class="mode-toggle">
-    <button class="mode-btn active" onclick="switchMode('login')">Entrar</button>
-    <button class="mode-btn" onclick="switchMode('create')">Criar Senha</button>
+    <button class="mode-btn active" onclick="switchMode('login')">Já tenho senha</button>
+    <button class="mode-btn" onclick="switchMode('create')">Primeira entrada</button>
   </div>
 
   <!-- LOGIN MODE -->
@@ -110,7 +117,7 @@ body{background:var(--bg); color:var(--ink); font-family:var(--font-sans); margi
         <input type="password" id="password-confirm" class="input" placeholder="Digite novamente" required>
       </div>
 
-      <button type="submit" class="btn">Criar Senha</button>
+      <button type="submit" class="btn">Acessar</button>
     </form>
   </div>
 
@@ -143,7 +150,11 @@ function handleLogin(e) {
   const password = document.getElementById('password-login').value;
 
   if (!AUTH.users[username].hash) {
-    showMsg('⚠️ Esta pessoa ainda não criou uma senha. Use "Criar Senha" primeiro.', 'info');
+    showMsg('⚠️ Esta é sua primeira entrada. Vamos criar sua senha.', 'info');
+    setTimeout(() => {
+      document.getElementById('user-create').value = username;
+      switchMode('create');
+    }, 800);
     return;
   }
 
