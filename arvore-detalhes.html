@@ -178,10 +178,10 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5
 
         contentTf.appendChild(pessoasDiv);
 
-        headerTf.addEventListener('click', (e) => {
-          e.stopPropagation();
-          contentTf.classList.toggle('open');
-          headerTf.querySelector('.tf-toggle').classList.toggle('open');
+        headerTf.addEventListener('click', () => {
+          const isOpen = contentTf.classList.contains('open');
+          contentTf.classList.toggle('open', !isOpen);
+          headerTf.querySelector('.tf-toggle').classList.toggle('open', !isOpen);
         });
 
         tfEl.appendChild(headerTf);
@@ -190,8 +190,9 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5
       });
 
       header.addEventListener('click', () => {
-        content.classList.toggle('open');
-        header.querySelector('.raiz-toggle').classList.toggle('open');
+        const isOpen = content.classList.contains('open');
+        content.classList.toggle('open', !isOpen);
+        header.querySelector('.raiz-toggle').classList.toggle('open', !isOpen);
       });
 
       raizEl.appendChild(header);
