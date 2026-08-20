@@ -132,14 +132,23 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5
         const casal_tf = tf.casal || {};
         const pai = casal_tf[0]?.texto_original || 'Pai desconhecido';
         const mae = casal_tf[1]?.texto_original || '';
-        const descendentes = tf.descendentes || [];
+
+        // Contar todas as pessoas em todas as gerações
+        let totalPessoas = 0;
+        const todasPessoas = [];
+        (tf.geracoes || []).forEach(geracao => {
+          (geracao.pessoas || []).forEach(pessoa => {
+            totalPessoas++;
+            todasPessoas.push(pessoa);
+          });
+        });
 
         const headerTf = document.createElement('div');
         headerTf.className = 'tf-header';
         headerTf.innerHTML = `
           <div>
             <span class="tf-name">TF ${tfIdx + 1}: ${pai.substring(0, 50)}</span>
-            <span class="tf-meta">${descendentes.length} pessoas</span>
+            <span class="tf-meta">${totalPessoas} pessoas</span>
           </div>
           <span class="tf-toggle">›</span>
         `;
@@ -150,7 +159,7 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5
         const pessoasDiv = document.createElement('div');
         pessoasDiv.className = 'pessoas';
 
-        descendentes.forEach(pessoa => {
+        todasPessoas.forEach(pessoa => {
           const pessoaEl = document.createElement('div');
           pessoaEl.className = `pessoa ${pessoa.confianca || 'alta'}`;
 
