@@ -16,7 +16,8 @@ const AUTH = {
   users: {
     'user': { hash: null, nome: 'Randolfo', predefined: true },
     'pires': { hash: null, nome: 'Autor', predefined: false },
-    'fabia': { hash: null, nome: 'Fábia - Agência', predefined: false }
+    'fabia': { hash: null, nome: 'Fábia - Agência', predefined: false },
+    'teste': { hash: null, nome: '🧪 Teste (descarte após)', predefined: false }
   },
 
   // Validar login
