@@ -14,9 +14,9 @@ const AUTH = {
 
   // Usuários pré-definidos
   users: {
-    'user': { hash: null, nome: 'Você (Proprietário)', predefined: true },
-    'pires': { hash: null, nome: 'Sr. Pires', predefined: false },
-    'fabia': { hash: null, nome: 'Fábia (Agência)', predefined: false }
+    'user': { hash: null, nome: 'Randolfo', predefined: true },
+    'pires': { hash: null, nome: 'Autor', predefined: false },
+    'fabia': { hash: null, nome: 'Fábia - Agência', predefined: false }
   },
 
   // Validar login
