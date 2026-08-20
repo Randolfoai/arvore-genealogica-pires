@@ -101,6 +101,7 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const dados = await resp.json();
 
+    console.log('✓ Dados carregados. Troncos-raiz:', dados.troncos_raiz?.length);
     load.style.display = 'none';
 
     const troncos_raiz = dados.troncos_raiz || [];
@@ -142,6 +143,7 @@ h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5
             todasPessoas.push(pessoa);
           });
         });
+        if (tfIdx === 0) console.log(`TF ${tfIdx + 1}: ${totalPessoas} pessoas`);
 
         const headerTf = document.createElement('div');
         headerTf.className = 'tf-header';
