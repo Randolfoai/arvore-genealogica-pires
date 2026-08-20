@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Árvore Genealógica Completa — Família Pires</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#E9E4D6; --surface:#FDFBF5; --surface-2:#FFFFFF;
+  --ink:#2B2620; --ink-2:#6B6255; --ink-muted:#948B7A;
+  --accent:#2F5D50; --accent-bg:#E4ECE8;
+  --ok:#3B6D11; --ok-bg:#EAF3DE;
+  --amber:#B8862E;
+  --doubt:#B5482B;
+  --border:#C9C0AC; --border-soft:#DCD5C4;
+  --font-serif:'EB Garamond',Georgia,'Times New Roman',serif;
+  --font-sans:'IBM Plex Sans',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1C1B17; --surface:#221F1A; --surface-2:#2A2620;
+    --ink:#EDE7D6; --ink-2:#B3AA95; --ink-muted:#837A69;
+    --accent:#5FA793; --accent-bg:#233129;
+    --ok:#8FBF5A; --ok-bg:#232B1C;
+    --amber:#D9AC55;
+    --doubt:#E2775A;
+    --border:#3A3730; --border-soft:#2E2B25;
+  }
+}
+*{box-sizing:border-box;}
+body{background:var(--bg); color:var(--ink); font-family:var(--font-sans); margin:0;}
+.page{max-width:1000px; margin:0 auto; padding:2rem 1.25rem 4rem;}
+.nav{font-size:13px; margin-bottom:1.2rem;}
+.nav a{color:var(--accent); text-decoration:none; margin-right:1rem;}
+.nav a:hover{text-decoration:underline;}
+h1{font-family:var(--font-serif); font-weight:600; font-size:28px; margin:0 0 .5rem;}
+.meta{font-size:12px; color:var(--ink-muted); margin-bottom:2rem;}
+.load-err{background:color-mix(in srgb, var(--doubt) 15%, var(--surface-2)); color:var(--doubt); padding:1rem; border-radius:8px; margin-bottom:1rem;}
+.tree{display:grid; gap:1rem; margin-top:2rem;}
+.raiz{background:var(--surface-2); border:.5px solid var(--border); border-radius:10px; overflow:hidden; margin-bottom:1rem;}
+.raiz-header{background:var(--accent-bg); padding:1.2rem; cursor:pointer; user-select:none; display:flex; align-items:center; justify-content:space-between; font-weight:600;}
+.raiz-header:hover{background:color-mix(in srgb, var(--accent) 8%, var(--surface-2));}
+.raiz-toggle{transition:transform 0.2s;}
+.raiz-toggle.open{transform:rotate(180deg);}
+.raiz-content{display:none; padding:1rem 1.2rem; background:var(--surface-2); max-height:0; overflow:hidden;}
+.raiz-content.open{display:block; max-height:none;}
+.tf{background:color-mix(in srgb, var(--accent) 6%, var(--surface-2)); border:.5px solid var(--border-soft); border-radius:8px; padding:1rem; margin-bottom:.8rem; cursor:pointer;}
+.tf:hover{background:color-mix(in srgb, var(--accent) 12%, var(--surface-2));}
+.tf-header{display:flex; justify-content:space-between; align-items:center; margin-bottom:.6rem;}
+.tf-name{font-weight:600; font-family:var(--font-serif); font-size:14px;}
+.tf-meta{font-size:11px; color:var(--ink-muted);}
+.tf-toggle{transition:transform 0.2s; color:var(--ink-muted);}
+.tf-toggle.open{transform:rotate(90deg);}
+.tf-content{display:none; margin-top:.8rem; padding-top:.8rem; border-top:.5px solid var(--border-soft);}
+.tf-content.open{display:block;}
+.pessoas{display:grid; gap:.5rem; font-size:13px;}
+.pessoa{padding:.5rem; background:var(--surface-2); border-radius:4px; border-left:3px solid var(--border-soft);}
+.pessoa.alta{border-left-color:var(--ok);}
+.pessoa.media{border-left-color:var(--amber);}
+.pessoa.duvida{border-left-color:var(--doubt);}
+.pessoa-name{font-weight:500;}
+.pessoa-conj{color:var(--ink-2); font-size:12px; margin-top:2px;}
+.badge{display:inline-block; font-size:10px; padding:2px 6px; border-radius:3px; margin-left:4px; font-family:var(--font-mono);}
+.badge.alta{background:var(--ok-bg); color:var(--ok);}
+.badge.media{background:color-mix(in srgb, var(--amber) 20%, var(--surface-2)); color:var(--amber);}
+.badge.duvida{background:color-mix(in srgb, var(--doubt) 18%, var(--surface-2)); color:var(--doubt);}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="nav">
+    <a href="./">‹ voltar ao índice</a>
+    <a href="numeros/">números da árvore →</a>
+  </div>
+  <h1>Árvore Genealógica Completa</h1>
+  <p class="meta">Dados extraídos do manuscrito (agosto 2026). Clique em cada tronco-raiz e tronco familiar para expandir e ver as pessoas com seus status de confiança.</p>
+
+  <div id="load" style="text-align:center; padding:2rem; color:var(--ink-muted);">Carregando dados...</div>
+  <div id="tree" class="tree"></div>
+</div>
+
+<script>
+(async function(){
+  const GITHUB_RAW = 'https://raw.githubusercontent.com/Randolfoai/duvidas-pires/main/dados.json';
+  const tree = document.getElementById('tree');
+  const load = document.getElementById('load');
+
+  try {
+    const resp = await fetch(GITHUB_RAW);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const dados = await resp.json();
+
+    load.style.display = 'none';
+
+    const troncos_raiz = dados.troncos_raiz || [];
+
+    troncos_raiz.forEach((raiz, raizIdx) => {
+      const raizEl = document.createElement('div');
+      raizEl.className = 'raiz';
+
+      const header = document.createElement('div');
+      header.className = 'raiz-header';
+
+      const casal = raiz.casal || {};
+      const raizNome = casal.nome || `Tronco-raiz ${raizIdx + 1}`;
+      const tfsCount = (raiz.troncos_familiares || []).length;
+
+      header.innerHTML = `
+        <span>${raizNome}</span>
+        <span class="raiz-meta">${tfsCount} troncos familiares</span>
+        <span class="raiz-toggle">▼</span>
+      `;
+
+      const content = document.createElement('div');
+      content.className = 'raiz-content';
+
+      (raiz.troncos_familiares || []).forEach((tf, tfIdx) => {
+        const tfEl = document.createElement('div');
+        tfEl.className = 'tf';
+
+        const casal_tf = tf.casal || {};
+        const pai = casal_tf[0]?.texto_original || 'Pai desconhecido';
+        const mae = casal_tf[1]?.texto_original || '';
+        const descendentes = tf.descendentes || [];
+
+        const headerTf = document.createElement('div');
+        headerTf.className = 'tf-header';
+        headerTf.innerHTML = `
+          <div>
+            <span class="tf-name">TF ${tfIdx + 1}: ${pai.substring(0, 50)}</span>
+            <span class="tf-meta">${descendentes.length} pessoas</span>
+          </div>
+          <span class="tf-toggle">›</span>
+        `;
+
+        const contentTf = document.createElement('div');
+        contentTf.className = 'tf-content';
+
+        const pessoasDiv = document.createElement('div');
+        pessoasDiv.className = 'pessoas';
+
+        descendentes.forEach(pessoa => {
+          const pessoaEl = document.createElement('div');
+          pessoaEl.className = `pessoa ${pessoa.confianca || 'alta'}`;
+
+          let texto = `<span class="pessoa-name">${pessoa.nome}</span>`;
+          texto += `<span class="badge ${pessoa.confianca || 'alta'}">${pessoa.confianca ? pessoa.confianca.toUpperCase() : 'ALTA'}</span>`;
+
+          if (pessoa.conjuge) {
+            texto += `<div class="pessoa-conj">⚭ ${pessoa.conjuge}</div>`;
+          }
+
+          pessoaEl.innerHTML = texto;
+          pessoasDiv.appendChild(pessoaEl);
+        });
+
+        contentTf.appendChild(pessoasDiv);
+
+        headerTf.addEventListener('click', (e) => {
+          e.stopPropagation();
+          contentTf.classList.toggle('open');
+          headerTf.querySelector('.tf-toggle').classList.toggle('open');
+        });
+
+        tfEl.appendChild(headerTf);
+        tfEl.appendChild(contentTf);
+        content.appendChild(tfEl);
+      });
+
+      header.addEventListener('click', () => {
+        content.classList.toggle('open');
+        header.querySelector('.raiz-toggle').classList.toggle('open');
+      });
+
+      raizEl.appendChild(header);
+      raizEl.appendChild(content);
+      tree.appendChild(raizEl);
+    });
+
+  } catch(err) {
+    load.innerHTML = `<div class="load-err">Erro ao carregar dados: ${err.message}</div>`;
+    load.style.display = 'block';
+  }
+})();
+</script>
+</body>
+</html>
